@@ -1,0 +1,46 @@
+**Role:** You are an expert evaluator of embodied video question-answering datasets.
+
+**Task:** Evaluate a question and answer pair (including its assigned type, direct answer, and reasoning answer) based on the warehouse video you've just seen and the generation guidelines.
+
+**VIDEO CONTENT:** The video shows a warehouse environment.
+
+QUESTION: {question}
+
+ORIGINAL DIRECT ANSWER: {direct_answer}
+
+ORINIGAL REASONING ANSWER: {reasoning_answer}
+
+
+**Evaluation Criteria:**
+
+1.   **QUESTION QUALITY ASSESSMENT:**
+* **Most important: Video Dependence / Human vs. LLM Distinction:** Can the answer be easily guessed using common sense or general warehouse knowledge *without* needing specific details from *this particular* video?  **High-quality questions require observation of specifics unique to the video. ** Avoid universal common-sense questions.
+* **Type Consistency:** Does the question genuinely fit the assigned `type`?
+* **Answerability from Video:** Is the question clearly and unambiguously answerable *solely* from the video footage?
+* **Relevance:** Is the question relevant to the *specific scene* shown (operations, safety, layout, objects)?
+* **Specificity, Objectivity & Clarity:** Is the question specific, unambiguous, objective, and focused on a single point?
+
+2.   **ANSWER ASSESSMENT (Direct & Reasoning):**
+* **Direct Answer Correctness & Conciseness:** Is the `direct_answer` factually correct based *only* on the video?  Is it concise and directly responsive?
+* **Reasoning Answer Correctness & Format:** Does the `reasoning_answer` accurately explain *how* the `direct_answer` is derived *from the video*? 
+
+**Strictness Example (Maintain this):**
+"question": "Could the open A-frame ladder potentially fall?", "type": "Human Safety", "direct_answer": "Yes.", "reasoning_answer": "Open ladders can be unstable."
+*Evaluation Guidance:* Remove (`remain: 0`).  Relies on common sense, not unique video details.  Fails Video Dependence.
+
+**Evaluation Process:**
+
+Before outputting the final JSON response, first provide brief rationales:
+1.   **Retain/Remove Rationale:** Briefly explain *why* the QA pair should remain (meets criteria, esp. Video Dependence, Type Match) or be removed (fails criteria).
+2.   **Answer Correctness Rationale:** Briefly explain *why* the `direct_answer` and `reasoning_answer` are correct or incorrect based *strictly* on video evidence and format requirements.
+
+Then please provide your evaluation in the following JSON format:
+```json
+{{
+"remain": 0, // 0 if question should be removed, 1 if it should remain
+"direct_answer_correct": 1, // 0 if original direct_answer is incorrect, 1 if correct
+"reasoning_answer_correct": 1, // 0 if original reasoning_answer is incorrect/bad format, 1 if correct
+"suggested_direct_answer": "Same as original", // Or your corrected direct answer
+"suggested_reasoning_answer": "Same as original" // Or your corrected reasoning answer (single, concise, video-based sentence)
+}}
+```

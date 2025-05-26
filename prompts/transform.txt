@@ -1,0 +1,93 @@
+Role: You are an Embodied Expert for refining industrial QA datasets.
+
+Input: List of JSON QA pairs (keys:"question", "direct_answer", "reasoning_answer").
+
+Task:
+Analyze each QA pair. Transform eligible "Yes/No" questions into open-ended (e.g., "What", "Where", "How") questions or multi-choice questions based *only* on their `direct_answer` and `reasoning_answer`.
+
+Transformation Guidelines:
+
+1.  Eligibility:
+    * `direct_answer` is "Yes." or "No.".
+    * Crucial: The `reasoning_answer` MUST provide specific descriptive information that can form a new question and answer.
+        * If "No", `reasoning_answer` should state *what IS observed* instead (e.g., Original Q: "Wearing hard hats?", DA: "No.", RA: "Wearing baseball caps." -> Transformable).
+        * If "Yes", `reasoning_answer` should give *specific details* supporting the "Yes" (e.g., Original Q: "Aisles clear?", DA: "Yes.", RA: "Aisles are unobstructed and wide." -> Transformable). In this case, you should
+        * Do NOT transform if `reasoning_answer` merely confirms the "No" (e.g., "No hard hats seen") or is a generic "Yes" (e.g., "Appears correct").
+    * You are free to reject to transform it, be objective. Consider whether the original form is more capable of evaluating different LLM agents or the modified form.
+
+
+2.  Transformation Steps (If Eligible):
+    * New Question:
+        * Based on the specifics in the original `reasoning_answer`, formulate a new question.
+        * If the answer is unique and unambiguous, it is much better if the question can be changed to open-ended. Avoid this if multiple valid descriptions apply (e.g., an aisle that is both 'clear' and 'black'. But if 'clear' is used as the ground truth answer, we lose the equally correct detail 'black').
+        * If multiple valid descriptions is work for the question, tranform it into Multiple Choice: If the `reasoning_answer` describes a clear state, attribute, or object that can be contrasted with a plausible alternative, formulate a multiple-choice question.
+            * The question should clearly present concise options. Example format: "What is the condition of X? Choose from: [Option A], [Option B], [Option C]..." or "Is X [Attribute 1] or [Attribute 2]...?".
+            * You should provide at least three options. One option must directly reflect the information in the original `reasoning_answer`. Other options should be relevant alternatives, and make sure the other options are not right answers for the question.
+    * New Direct Answer:
+        * This should be the correct option (if multiple-choice) or the concise factual answer (if open-ended), directly derived from the original `reasoning_answer`.
+    * New Reasoning Answer:
+        * New reasoning, concisely supporting the new `direct_answer`. It should directly state the factual basis for why the new `direct_answer` is correct, without explicitly meta-referencing the transformation process or the "original observation" itself. Remember, you can also refer to the video information to refine, enrich or correct the reasoning answer.
+    * Add Key: `"transformed_status": "1"`.
+
+
+3.  Non-Transformed Items:
+    * Keep original data.
+    * Add Key: `"transformed_status": "0"`.
+
+Examples:
+
+* Example 1: Transformation to Open-Ended 
+    * Input:
+        * `question`: "Are the warehouse workers wearing hard hats?"
+        * `direct_answer`: "No."
+        * `reasoning_answer`: "The workers visible are wearing baseball caps; no hard hats are seen."
+    * Output:
+        ```json
+        {{
+          "question": "What are workers wearing on their heads?",
+          "direct_answer": "Baseball caps.",
+          "reasoning_answer": "The workers visible are wearing baseball caps, no other type of hats are seen.",
+          "transformed_status": "1"
+        }}
+        ```
+
+* Example 2: Transformation to Multiple Choice
+    * Input:
+        * `question`: "Are aisles clear?"
+        * `direct_answer`: "Yes."
+        * `reasoning_answer`: "Aisles are unobstructed and wide."
+    * Output:
+        ```json
+        {{
+          "question": "What is the condition of the aisles? Choose from: Clear, Obstructed.",
+          "direct_answer": "Clear.",
+          "reasoning_answer": "The aisles are free of obstructions and allow passage.",
+          "transformed_status": "1"
+        }}
+        ```
+
+* Example 3: No Transformation
+    * Input:
+        * `question`: "Are any tools left on the floor?"
+        * `direct_answer`: "No."
+        * `reasoning_answer`: "No tools are visible on the floor."
+    * Output:
+        ```json
+        {{
+          "question": "Are any tools left on the floor?",
+          "direct_answer": "No.",
+          "reasoning_answer": "No tools are visible on the floor.",
+          "transformed_status": "0"
+        }}
+        ```
+
+Output:
+Strictly valid JSON list of all processed QA objects (original or transformed).
+
+Your turn:
+Input:
+QUESTION: {question}
+ORIGINAL DIRECT ANSWER: {direct_answer}
+ORINIGAL REASONING ANSWER: {reasoning_answer}
+
+Output:

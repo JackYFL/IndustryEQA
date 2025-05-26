@@ -1,0 +1,3732 @@
+[
+  {
+    "question_id": 1,
+    "type": "Equipment Safety",
+    "question": "What unattended equipment is causing a potential obstruction in a walkway area?",
+    "direct_answer": "A yellow pallet jack.",
+    "reasoning_answer": "A yellow pallet jack is visible left in an area that could be a walkway, creating a potential trip hazard. This equipment is unattended.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 2,
+    "type": "Object Recognition",
+    "question": "What type of machinery, labeled 'RUNTAGE X', is used for scanning items placed on a conveyor belt?",
+    "direct_answer": "X-ray scanner.",
+    "reasoning_answer": "The machines labeled 'RUNTAGE X' have characteristics of X-ray scanners for inspecting packages on conveyors.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 3,
+    "type": "Attribute Recognition",
+    "question": "What is the predominant color of the work uniforms?",
+    "direct_answer": "Blue or purple.",
+    "reasoning_answer": "The majority of workers visible are wearing blue or purple jackets or coveralls and caps.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 4,
+    "type": "Human Safety",
+    "question": "How are workers handling packages on lower conveyor sections?",
+    "direct_answer": "By bending over.",
+    "reasoning_answer": "Workers are observed bending over at the waist to handle packages on the lower conveyor sections.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 5,
+    "type": "Spatial Understanding",
+    "question": "What is the location of the tall shelving units? Choose from: Along the walls only, In the middle of the floor, Both along the walls and in the middle of the floor.",
+    "direct_answer": "Both along the walls and in the middle of the floor.",
+    "reasoning_answer": "Tall shelving units are clearly visible lining the warehouse walls and are also arranged in the middle of the floor space, forming aisles.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 6,
+    "type": "Human Safety",
+    "question": "What type of head protection are workers observed wearing in the warehouse?",
+    "direct_answer": "Baseball caps or no headwear.",
+    "reasoning_answer": "Some workers are seen wearing only baseball caps or no headwear at all, instead of appropriate hard hats or safety helmets, even in areas with potential overhead hazards.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 7,
+    "type": "Spatial Understanding",
+    "question": "What is the purpose of the walk-through metal detector arches?",
+    "direct_answer": "Personnel screening.",
+    "reasoning_answer": "The metal detectors are designed as walk-through arches, which are used for screening individuals entering the area.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 8,
+    "type": "Object Recognition",
+    "question": "What type of items are predominantly being moved on the blue, multi-tiered roller conveyor systems?",
+    "direct_answer": "Cardboard boxes.",
+    "reasoning_answer": "The conveyor systems are shown transporting various sizes of cardboard boxes.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 9,
+    "type": "Attribute Recognition",
+    "question": "What is the general color of the floor in most of the warehouse operational areas?",
+    "direct_answer": "Dark blue or dark grey.",
+    "reasoning_answer": "The warehouse floor is consistently a dark shade, appearing as dark blue or grey.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 10,
+    "type": "Equipment Safety",
+    "question": "Are specific warning signs for 'moving parts' or 'pinch points' visibly displayed directly on or beside the blue conveyor systems?",
+    "direct_answer": "No.",
+    "reasoning_answer": "While general caution signs are present elsewhere, no such specific warnings are seen attached to the conveyor machinery itself.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 11,
+    "type": "Human Safety",
+    "question": "What type of fall protection is being used by workers on elevated platforms? Choose from: Personal Fall Arrest Systems, Guardrails, Safety Nets, None.",
+    "direct_answer": "Guardrails.",
+    "reasoning_answer": "Workers are visible on elevated platforms. These platforms are equipped with guardrails, which provide fall protection. No other types of fall protection, such as personal fall arrest systems or safety nets, are seen.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 12,
+    "type": "Attribute Recognition",
+    "question": "What is the warning text prominently displayed on the triangular yellow signs placed on portable stands?",
+    "direct_answer": "CAUTION ATTENTION.",
+    "reasoning_answer": "The yellow triangular signs clearly bear the words 'CAUTION' and 'ATTENTION' to alert personnel.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 13,
+    "type": "Equipment Safety",
+    "question": "How would you describe the overall lighting in the warehouse?",
+    "direct_answer": "Adequate.",
+    "reasoning_answer": "The warehouse is illuminated by many overhead fluorescent fixtures, providing a seemingly sufficient level of brightness for visibility during operations.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 14,
+    "type": "Spatial Understanding",
+    "question": "What type of furniture is located near the X-ray scanning machine and conveyor belt?",
+    "direct_answer": "Office/lounge furniture, including a sofa.",
+    "reasoning_answer": "The video shows office/lounge furniture, such as a sofa, positioned immediately next to the industrial scanning equipment and conveyor belt.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 15,
+    "type": "Human Safety",
+    "question": "What type of hazard is created by the pool table's placement in the warehouse?",
+    "direct_answer": "Tripping hazard.",
+    "reasoning_answer": "The pool table is located in an active warehouse area and is identified as a potential tripping hazard.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 16,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the first seen small, four-wheeled metal cart near a worker?",
+    "direct_answer": "Grey.",
+    "reasoning_answer": "A worker is seen near a small metal cart that has a distinct grey frame and handle.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 17,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the aisle where the forklift is shown operating?",
+    "direct_answer": "A narrow aisle with minimal clearance.",
+    "reasoning_answer": "The video shows a forklift operating in an aisle where the space between the forklift and the shelving units is minimal.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 18,
+    "type": "Human Safety",
+    "question": "What are the workers primarily wearing? Choose from: Full high-visibility vests, Primarily blue uniforms with some reflective strips, Standard work shirts and pants.",
+    "direct_answer": "Blue or purple uniforms.",
+    "reasoning_answer": "Workers are primarily seen in blue uniforms, and some of these uniforms feature reflective strips, but no distinct, full high-visibility vests are worn.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 19,
+    "type": "Object Recognition",
+    "question": "What type of unexpected seating furniture, apart from office chairs, is found near industrial shelving units and an X-ray machine?",
+    "direct_answer": "Sofas and armchairs.",
+    "reasoning_answer": "The scene incongruously includes lounge furniture like sofas and armchairs in an industrial setting, near the shelving and X-ray machine.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 20,
+    "type": "Attribute Recognition",
+    "question": "Are the tires on the blue forklifts pneumatic (air-filled) or solid rubber?",
+    "direct_answer": "Solid rubber.",
+    "reasoning_answer": "Based on visual observation of the tires in the video.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 21,
+    "type": "Equipment Safety",
+    "question": "Is the operator of the large gantry crane visible in a traditional onboard cab on the crane?",
+    "direct_answer": "No",
+    "reasoning_answer": "The gantry crane is operating in the video, but no operator is visible within a traditional cab attached to the moving parts of the crane.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 22,
+    "type": "Human Safety",
+    "question": "What is the orientation of workers using handheld scanners relative to potential forklift movement? Choose from: Always facing the movement, Often facing away (backs or sides), Orientation varies randomly",
+    "direct_answer": "Often facing away (backs or sides).",
+    "reasoning_answer": "Instances are observed where workers are focused on handheld scanning tasks while positioned with their backs or sides towards potential forklift traffic paths.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 23,
+    "type": "Object Recognition",
+    "question": "What structure does a worker use to ascend to an elevated platform near the large red gantry crane system?",
+    "direct_answer": "Fixed metal stairs with handrails.",
+    "reasoning_answer": "Access to the elevated platforms is provided by sets of sturdy metal stairs.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 24,
+    "type": "Equipment Safety",
+    "question": "What is the status of the guarding on the moving parts of the conveyor systems?",
+    "direct_answer": "Partially guarded, with exposed rollers and belts.",
+    "reasoning_answer": "While some side guards are present on the conveyor systems, many rollers and sections of the conveyor belts remain exposed, as seen in the video.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 25,
+    "type": "Object Recognition",
+    "question": "Besides cardboard boxes and wooden crates, what other types of large-volume containers are seen stored on the industrial shelving units?",
+    "direct_answer": "Large plastic IBC (Intermediate Bulk Container) totes and colored plastic barrels/drums.",
+    "reasoning_answer": "Shelving units in one area clearly show large, caged plastic totes and multiple red and blue plastic barrels.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 26,
+    "type": "Attribute Recognition",
+    "question": "What are the distinct colors of the plastic barrels or drums on the ground operated by workers?",
+    "direct_answer": "Blue and red.",
+    "reasoning_answer": "The video shows plastic barrels or drums stored on shelves in blue and red colors.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 27,
+    "type": "Equipment Safety",
+    "question": "What type of radiation warning symbol is visible on the X-ray machines?",
+    "direct_answer": "A yellow trefoil radiation hazard symbol.",
+    "reasoning_answer": "A yellow trefoil radiation hazard symbol is visible on the side of the X-ray machines, alerting to potential radiation.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 28,
+    "type": "Human Safety",
+    "question": "What is the nature of the separation between pedestrian walkways and forklift operational areas in the warehouse?",
+    "direct_answer": "Inconsistent separation with some railings.",
+    "reasoning_answer": "The video shows that some areas have yellow railings delineating walkways, indicating an attempt at separation. However, this separation is not consistently applied throughout the visible warehouse, and forklifts are observed operating in close proximity to areas where pedestrians are present.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 29,
+    "type": "Equipment Safety",
+    "question": "What method is used to secure the cardboard boxes on the upper shelves? Choose from: Secured with strapping or wrap, Secured with netting, Simply placed without extra restraints.",
+    "direct_answer": "Simply placed without extra restraints.",
+    "reasoning_answer": "The video shows cardboard boxes on the upper shelves that are simply placed on the shelves with no visible netting, shrink wrap, or strapping used to secure them.",
+    "path": "data/large/human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 30,
+    "type": "Human Safety",
+    "question": "What are workers wearing on their heads for head protection?",
+    "direct_answer": "Caps.",
+    "reasoning_answer": "Workers observed in the warehouse are consistently wearing blue caps.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 31,
+    "type": "Attribute Recognition",
+    "question": "What color are the uniforms worn by the warehouse workers?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "All observed workers are wearing blue colored uniforms and caps.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 32,
+    "type": "Human Safety",
+    "question": "What type of upper body garment are workers primarily wearing? Choose from: (A) High-visibility vests, (B) Blue uniform jackets/shirts, (C) T-shirts, (D) Lab coats.",
+    "direct_answer": "(B) Blue uniform jackets/shirts.",
+    "reasoning_answer": "All observed workers are consistently wearing blue uniform tops as part of their work attire.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 33,
+    "type": "Equipment Safety",
+    "question": "Are the elevated platforms equipped with toe boards? Choose from: Yes, No, Partially Installed, Damaged.",
+    "direct_answer": "No.",
+    "reasoning_answer": "The elevated platforms with yellow railings visible in the video do not have toe boards installed at their base.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 34,
+    "type": "Human Safety",
+    "question": "How are some workers lifting boxes from low shelves?",
+    "direct_answer": "By bending their backs.",
+    "reasoning_answer": "Some workers are seen bending at the waist to retrieve boxes from lower shelf levels.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 35,
+    "type": "Equipment Safety",
+    "question": "Where is the orange pallet jack located and what is its status?",
+    "direct_answer": "In a central aisle, stationary and not in use.",
+    "reasoning_answer": "An orange pallet jack is visible stationary in a central aisle of the warehouse, not actively in use.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 36,
+    "type": "Equipment Safety",
+    "question": "How are some cardboard boxes positioned on the upper shelves?",
+    "direct_answer": "Slightly overhanging the edge.",
+    "reasoning_answer": "Certain cardboard boxes on higher shelves are observed positioned slightly overhanging the shelf edge.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 37,
+    "type": "Equipment Safety",
+    "question": "Are items stacked on the shelves secured with any visible means like strapping or netting to prevent falling?",
+    "direct_answer": "No.",
+    "reasoning_answer": "There is no visible strapping, netting, or other securing mechanism on the boxes stored on shelves.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 38,
+    "type": "Equipment Safety",
+    "question": "What object is left unattended on the blue warehouse floor?",
+    "direct_answer": "A small, yellow object.",
+    "reasoning_answer": "A small yellow object, possibly a roll of tape, is visible unattended on the blue floor.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 39,
+    "type": "Object Recognition",
+    "question": "What type of lifting equipment is supported by large, fixed yellow pillars and has a rotating arm?",
+    "direct_answer": "Jib crane",
+    "reasoning_answer": "Large yellow pillars support rotating crane arms equipped with hoists for lifting.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 40,
+    "type": "Attribute Recognition",
+    "question": "Which two colors are most prominent on the forklift operating in the warehouse? (A) Red and Black, (B) Blue and Yellow, (C) Green and White, (D) Orange and Grey.",
+    "direct_answer": "(B) Blue and Yellow.",
+    "reasoning_answer": "The forklift's body is primarily blue with significant yellow components like the mast and parts of the counterweight. This can be seen clearly in the video around the 3:15 mark.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 41,
+    "type": "Object Recognition",
+    "question": "What items are being transported on the blue roller conveyor belt system?",
+    "direct_answer": "Cardboard boxes.",
+    "reasoning_answer": "The conveyor system is depicted moving various sizes of cardboard boxes.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 42,
+    "type": "Attribute Recognition",
+    "question": "What are the primary colors of the interlocking, stackable items seen on the floor? Choose all that apply: (A) Yellow, (B) Blue, (C) Red, (D) Green.",
+    "direct_answer": "(A) Yellow, (C) Red, (D) Green.",
+    "reasoning_answer": "These modular items are visibly present in stacks of yellow, red, and green in multiple locations.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 43,
+    "type": "Attribute Recognition",
+    "question": "Which of the following handling instructions is visibly printed on some cardboard boxes: (A) THIS WAY UP, (B) FRAGILE, (C) HEAVY, (D) KEEP DRY?",
+    "direct_answer": "(B) FRAGILE.",
+    "reasoning_answer": "The word \"FRAGILE\" is clearly printed in uppercase letters on several cardboard boxes.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 44,
+    "type": "Spatial Understanding",
+    "question": "How are the tall shelving units primarily arranged?",
+    "direct_answer": "In parallel rows.",
+    "reasoning_answer": "The warehouse layout features multiple parallel rows of tall shelving units.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 45,
+    "type": "Human Safety",
+    "question": "Regarding retrieving a box from a shelf, is a worker reaching above or below head height? Choose from: Above head height, Below head height, At head height, Not applicable.",
+    "direct_answer": "Below head height.",
+    "reasoning_answer": "A worker is depicted reaching upwards to retrieve a box from a shelf that is visibly positioned below their head.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 46,
+    "type": "Spatial Understanding",
+    "question": "What material are some of the storage areas made from?",
+    "direct_answer": "Wire mesh caging.",
+    "reasoning_answer": "Some areas in the warehouse are enclosed by wire mesh caging, forming secure storage zones.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 47,
+    "type": "Human Safety",
+    "question": "What is the worker operating the red pallet jack wearing on their hands?",
+    "direct_answer": "No gloves visible.",
+    "reasoning_answer": "The worker is visibly not wearing gloves while pushing the red pallet jack with stacked boxes.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 48,
+    "type": "Human Safety",
+    "question": "When workers are on elevated platforms or mezzanines, is there any visible evidence of personal fall arrest systems (e.g., safety harnesses) being used?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No safety harnesses or lanyards are visible on any of the workers positioned on elevated work platforms.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 49,
+    "type": "Equipment Safety",
+    "question": "What is the status of the blue hand truck in the walkway?",
+    "direct_answer": "Standing alone and not in active use.",
+    "reasoning_answer": "A blue hand truck is visible standing alone in a walkway, and no worker is seen using it.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 50,
+    "type": "Equipment Safety",
+    "question": "Are there any visible spill containment kits or materials located near the areas where red and blue barrels are stored?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No spill containment equipment is visible in the immediate vicinity of the stored barrels.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 51,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the blue conveyor rollers regarding safety guards?",
+    "direct_answer": "Exposed without additional guarding.",
+    "reasoning_answer": "The video shows the conveyor rollers on the blue system are exposed without additional safety guarding beyond the frame of the conveyor itself.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 52,
+    "type": "Equipment Safety",
+    "question": "How are the boxes on the pallet being transported by the forklift secured? Choose from: Secured with shrink wrap or strapping, Not visibly secured.",
+    "direct_answer": "Not visibly secured.",
+    "reasoning_answer": "The boxes on the pallet being moved by the forklift are simply stacked and there is no visible evidence of them being secured by shrink wrap or strapping.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 53,
+    "type": "Attribute Recognition",
+    "question": "What is the predominant color of the warehouse floor visible in most areas?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The warehouse floor surface is consistently blue throughout the facility.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 54,
+    "type": "Spatial Understanding",
+    "question": "What levels of conveyor belts are visible near the wheeled stairs?",
+    "direct_answer": "Two levels (lower and elevated).",
+    "reasoning_answer": "Near the wheeled stairs, both a lower conveyor belt and an elevated conveyor system are visible.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 55,
+    "type": "Equipment Safety",
+    "question": "What is the general condition of the warehouse floor?",
+    "direct_answer": "Mostly clear.",
+    "reasoning_answer": "The floor is mostly clear, with only isolated, small items noted, indicating good general housekeeping.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 56,
+    "type": "Equipment Safety",
+    "question": "Is there any visible signage indicating the maximum load capacities on the shelving units?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Labels or signs specifying the weight limits for the shelves are not clearly visible in the video.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 57,
+    "type": "Human Safety",
+    "question": "What kind of motions are involved in loading boxes onto the conveyor belt?",
+    "direct_answer": "Repetitive physical actions.",
+    "reasoning_answer": "The task of loading boxes onto a conveyor involves repeated physical movements.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 58,
+    "type": "Equipment Safety",
+    "question": "Describe the demarcation of the areas directly underneath the operating arms of the jib cranes. Choose from: Clearly demarcated, Not clearly demarcated.",
+    "direct_answer": "Not clearly demarcated.",
+    "reasoning_answer": "There are no visible floor markings or barriers specifically defining restricted zones beneath the crane operational areas.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 59,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the visible electrical components in the warehouse? Choose from: Properly maintained, Damaged or exposed, Improperly routed.",
+    "direct_answer": "Improperly maintained.",
+    "reasoning_answer": "Visible electrical components like wiring and panels appear to be properly enclosed and maintained throughout the warehouse, but the loose, dangling wiring indicates poor routing rather than damage or maintenance issue.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 60,
+    "type": "Equipment Safety",
+    "question": "What is the level of loose combustible materials or debris on the floor? Choose from: Minimal, Moderate, Excessive.",
+    "direct_answer": "Minimal.",
+    "reasoning_answer": "The floor areas do not show excessive accumulation of loose combustible debris.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 61,
+    "type": "Human Safety",
+    "question": "How are the workers moving within the warehouse?",
+    "direct_answer": "At a deliberate, walking pace.",
+    "reasoning_answer": "Workers are depicted moving calmly at a deliberate walking pace and are focused on their tasks, showing no signs of rushing, running, or horseplay.",
+    "path": "data/large/human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 62,
+    "type": "Human Safety",
+    "question": "What type of protective headwear, if any, are the workers consistently wearing? Choose from: Hard hats, Safety helmets, Blue caps, None.",
+    "direct_answer": "Blue caps.",
+    "reasoning_answer": "Workers are observed wearing blue caps throughout the video, not hard hats or safety helmets.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 63,
+    "type": "Human Safety",
+    "question": "Is there clear evidence of workers consistently using safety glasses while operating or near machinery?",
+    "direct_answer": "No, not clearly visible.",
+    "reasoning_answer": "While workers are near machinery, the clear and consistent use of safety glasses is not apparent in the video.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 64,
+    "type": "Human Safety",
+    "question": "Are workers observed using safety harnesses when accessing items on high shelves without a forklift or mobile elevating work platform?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Ladders are visible, but workers are not shown using them for high access in a way that would necessitate a harness in this footage.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 65,
+    "type": "Human Safety",
+    "question": "Are designated pedestrian walkways clearly and consistently separated from forklift operating zones in all open areas shown?",
+    "direct_answer": "Not consistently in all open areas.",
+    "reasoning_answer": "While some aisles have yellow lines, clear physical separation isn't always evident in more open warehouse spaces.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 66,
+    "type": "Equipment Safety",
+    "question": "Is there visible evidence of spill containment kits or materials readily available near areas storing liquid containers?",
+    "direct_answer": "Not clearly visible.",
+    "reasoning_answer": "While liquid containers are present on shelves, specific spill containment kits are not obviously depicted in their immediate vicinity.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 67,
+    "type": "Object Recognition",
+    "question": "What safety feature is marked on the floor at the end of some shelving aisles, consisting of red and white diagonal stripes?",
+    "direct_answer": "Safety hazard area / Keep clear zone.",
+    "reasoning_answer": "Red and white striped markings typically indicate areas that must be kept clear for safety or operational access.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 68,
+    "type": "Equipment Safety",
+    "question": "Are the boxes on the shelves uniformly stacked and secured to prevent them from falling?",
+    "direct_answer": "Mostly, but some variations in stacking neatness exist.",
+    "reasoning_answer": "While many boxes appear stable, the uniformity of stacking and explicit securing methods aren't consistent across all shelves shown.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 69,
+    "type": "Object Recognition",
+    "question": "What type of lighting fixtures are predominantly used on the warehouse ceiling?",
+    "direct_answer": "Fluorescent tube lights or LED strip lights.",
+    "reasoning_answer": "Long, linear light fixtures are visible throughout the warehouse ceiling, characteristic of fluorescent or LED strip lighting.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 70,
+    "type": "Equipment Safety",
+    "question": "Are clear, large \"FIRE EXIT\" signs prominently visible in multiple locations throughout the warehouse footage?",
+    "direct_answer": "No, not prominently visible in most shots.",
+    "reasoning_answer": "While general safety signage exists, large, clearly identifiable \"FIRE EXIT\" signs are not consistently prominent in the views provided.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 71,
+    "type": "Object Recognition",
+    "question": "What safety equipment is co-located with a first aid kit and a fire extinguisher on a grey brick wall station?",
+    "direct_answer": "An eyewash station (bottle).",
+    "reasoning_answer": "A first aid kit, fire extinguisher, and what appears to be an eyewash bottle are grouped together at a safety station on the grey brick wall.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 72,
+    "type": "Equipment Safety",
+    "question": "What type of safety markers are used to indicate potential hazards? Choose from: Safety cones, Barrier tape, Warning signs.",
+    "direct_answer": "Safety cones.",
+    "reasoning_answer": "Orange safety cones are visible in several areas of the warehouse, placed near obstacles or work zones.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 73,
+    "type": "Equipment Safety",
+    "question": "Are all forklifts shown equipped with clearly visible flashing warning lights or beacons?",
+    "direct_answer": "Not clearly visible on all forklifts from all angles.",
+    "reasoning_answer": "While one blue forklift appears to have a light on top, it's not consistently clear for all forklift units shown in the video.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 74,
+    "type": "Object Recognition",
+    "question": "What type of industrial vehicle, blue in color and branded \"ATLAS\", is used for lifting and moving heavy palletized loads?",
+    "direct_answer": "Forklift / Reach truck.",
+    "reasoning_answer": "A blue forklift with \"ATLAS\" branding is shown operating in the warehouse, designed for material handling.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 75,
+    "type": "Object Recognition",
+    "question": "What automated guided vehicles are seen moving on the floor, typically yellow or white with blue accents, often under conveyor systems?",
+    "direct_answer": "Mobile robots / Autonomous Mobile Robots (AMRs) / Automated Guided Vehicles (AGVs).",
+    "reasoning_answer": "Small, automated robots are shown autonomously navigating and transporting items, likely as part of an automated system.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 76,
+    "type": "Object Recognition",
+    "question": "What structures, predominantly blue, are used to transport items automatically across the warehouse, often at an elevated level?",
+    "direct_answer": "Conveyor belt systems.",
+    "reasoning_answer": "Blue, elevated conveyor belt systems are prominent in several scenes, designed for automated material flow.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 77,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the larger forklift shown maneuvering through the warehouse aisles?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "One of the prominent forklifts clearly depicted in operation within the warehouse is blue.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 78,
+    "type": "Attribute Recognition",
+    "question": "What color are the forklifts that are working within an aisle?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "A smaller, blue-colored forklift is shown both stationary and in motion in different parts.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 79,
+    "type": "Attribute Recognition",
+    "question": "What brand name is written on the side of the blue forklift?",
+    "direct_answer": "ATLAS.",
+    "reasoning_answer": "The blue forklift has the brand name \"ATLAS\" clearly visible on its side chassis.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 80,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the uprights and beams of the shelving units holding most of the cardboard boxes?",
+    "direct_answer": "The beams are orange, and the uprights are dark grey/black.",
+    "reasoning_answer": "In the video, the horizontal beams of the shelving units holding most boxes are orange, while the vertical uprights are dark grey or black.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 81,
+    "type": "Attribute Recognition",
+    "question": "What are the two main colors of the diagonal striped safety hazard markings on the floor at the ends of some aisles?",
+    "direct_answer": "Red and white.",
+    "reasoning_answer": "The diagonal striped floor markings, indicating caution or keep-clear zones, are a combination of red and white.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 82,
+    "type": "Attribute Recognition",
+    "question": "What color are the vertical support pillars for the extensive blue conveyor belt system?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The legs or vertical supports holding up the blue conveyor belts are also painted blue.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 83,
+    "type": "Spatial Understanding",
+    "question": "Where are fire extinguishers typically located in relation to the orange shelving units?",
+    "direct_answer": "Mounted on the support pillars (uprights) of the shelving units or on adjacent walls.",
+    "reasoning_answer": "Fire extinguishers are shown attached to the vertical supports of shelves or on nearby walls for accessibility.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 84,
+    "type": "Spatial Understanding",
+    "question": "Are the blue conveyor belt systems located at ground level or are they elevated above the floor?",
+    "direct_answer": "Elevated.",
+    "reasoning_answer": "The conveyor belts are supported by legs, raising them significantly above the warehouse floor.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 85,
+    "type": "Spatial Understanding",
+    "question": "In which general direction do the aisles with orange shelving predominantly run relative to the long grey brick walls visible in some scenes?",
+    "direct_answer": "Perpendicularly or at an angle, extending away from the walls.",
+    "reasoning_answer": "The aisles are shown branching off or running perpendicular to the main brick walls.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 86,
+    "type": "Temporal Understanding",
+    "question": "In the initial sequences showing distinct forklift operations, does the blue forklift appear before or after the yellow forklift is highlighted?",
+    "direct_answer": "The blue forklift is shown first.",
+    "reasoning_answer": "The video first features the blue \"ATLAS\" forklift in operation before focusing on the yellow forklift.",
+    "path": "data/large/human/large_03/large01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 87,
+    "type": "Human Safety",
+    "question": "Are there any designated pedestrian walkways clearly demarcated in the warehouse aisles?",
+    "direct_answer": "No.",
+    "reasoning_answer": "The video does not show any painted lines or separate marked pathways for pedestrians within the storage aisles.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 88,
+    "type": "Human Safety",
+    "question": "Is any personal protective equipment (PPE), such as hard hats or safety vests, visibly stored on or near the parked forklifts?",
+    "direct_answer": "No.",
+    "reasoning_answer": "The forklifts are shown without any readily available PPE, implying operators would need to source it elsewhere.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 89,
+    "type": "Human Safety",
+    "question": "What is the condition of the access space around the fire hose cabinets?",
+    "direct_answer": "Clear and unobstructed.",
+    "reasoning_answer": "The fire hose cabinets shown in the video have clear, unobstructed access space around them, allowing for emergency access.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 90,
+    "type": "Human Safety",
+    "question": "Where are potential blind corners located in the warehouse?",
+    "direct_answer": "At the ends of aisles and junctions between racking rows.",
+    "reasoning_answer": "The video shows that potential blind corners exist at the ends of aisles and at the points where different racking rows intersect.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 91,
+    "type": "Human Safety",
+    "question": "Are there any visible warnings or signs posted indicating speed limits for forklifts within the warehouse?",
+    "direct_answer": "No.",
+    "reasoning_answer": "The video does not show any posted speed limit signage for material handling equipment.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 92,
+    "type": "Human Safety",
+    "question": "Does the warehouse appear to have clearly designated and protected areas for charging forklift batteries away from general traffic?",
+    "direct_answer": "Not clearly visible.",
+    "reasoning_answer": "No specific, cordoned-off battery charging stations are shown during the walkthrough of the storage areas.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 93,
+    "type": "Equipment Safety",
+    "question": "Is the yellow portable fan/heater placed in a location where it could become a trip hazard or obstruct equipment movement?",
+    "direct_answer": "Yes, it is on the floor in an aisle.",
+    "reasoning_answer": "The fan/heater is positioned on the floor near shelving, potentially obstructing clear passage.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 94,
+    "type": "Equipment Safety",
+    "question": "What is the general condition of box placement on the shelves?",
+    "direct_answer": "Securely within boundaries.",
+    "reasoning_answer": "Based on the video, most boxes are observed to be placed securely within the confines of the pallets and shelves, preventing significant overhang.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 95,
+    "type": "Equipment Safety",
+    "question": "Is there any visible signage on the shelving units indicating their maximum load capacity?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Load capacity labels are not visible on the shelving units during the video walkthrough.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 96,
+    "type": "Equipment Safety",
+    "question": "What is the position of the forks on the parked blue forklift? Choose from: fully lowered, slightly elevated, raised high.",
+    "direct_answer": "fully lowered.",
+    "reasoning_answer": "Two parked blue forklifts are visible with their forks fully lowered from the ground.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 97,
+    "type": "Equipment Safety",
+    "question": "Describe the warehouse floor in terms of obstructions.",
+    "direct_answer": "Mostly free of large debris or significant obstructions.",
+    "reasoning_answer": "The floor appears mostly clear of substantial debris, promoting safe movement of equipment as seen throughout the video.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 98,
+    "type": "Equipment Safety",
+    "question": "How are the wooden crates stacked on the pallets and shelves?",
+    "direct_answer": "Stacked evenly and interlocked where appropriate.",
+    "reasoning_answer": "The video shows the wooden crates are generally stacked evenly and interlocked where appropriate on the pallets and shelves, promoting stability.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 99,
+    "type": "Equipment Safety",
+    "question": "Is there any visible evidence, like log sheets or tags, indicating regular maintenance checks for the forklifts?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No maintenance logs or check tags are visible on or near the forklifts in the video.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 100,
+    "type": "Equipment Safety",
+    "question": "How are the portable ladders stored when not in use? Choose from: In dedicated racks, Leaning against structures, Lying flat on the floor.",
+    "direct_answer": "Leaning against structures.",
+    "reasoning_answer": "The video shows ladders leaning against shelving units, not stored in dedicated racks or left on the floor.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 101,
+    "type": "Equipment Safety",
+    "question": "What is the access condition of the fire hose cabinets?",
+    "direct_answer": "Clear.",
+    "reasoning_answer": "The fire hose cabinets visible in the warehouse are clear of obstructions, allowing for ready access.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 102,
+    "type": "Spatial Understanding",
+    "question": "Is the orange pallet jack located closer to the group of blue forklifts or the yellow automated forklift?",
+    "direct_answer": "Closer to the blue forklifts.",
+    "reasoning_answer": "The orange pallet jack is positioned in an aisle near several parked blue forklifts, while the yellow automated forklift is further away.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 103,
+    "type": "Spatial Understanding",
+    "question": "What structures line the main aisle in the warehouse?",
+    "direct_answer": "Extensive shelving units.",
+    "reasoning_answer": "Tall shelving units filled with boxes and crates are visible lining both sides of the main aisle throughout the warehouse.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 104,
+    "type": "Spatial Understanding",
+    "question": "What safety device is visible on the wall near the area with the office-style desk and white cabinets?",
+    "direct_answer": "A red fire extinguisher.",
+    "reasoning_answer": "A red fire extinguisher is mounted on the grey brick wall adjacent to the office furniture area.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 105,
+    "type": "Spatial Understanding",
+    "question": "Where are the metal benches located relative to the main storage aisles filled with racking?",
+    "direct_answer": "At one end of the warehouse, in an open area perpendicular to the main storage aisles.",
+    "reasoning_answer": "The benches are situated against a wall in an open space at one extremity of the warehouse, away from the primary racking.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 106,
+    "type": "Object Recognition",
+    "question": "How many blue ride-on forklifts are clearly visible parked in a row in one of the main aisles?",
+    "direct_answer": "Three.",
+    "reasoning_answer": "The video clearly shows a sequence of three blue ride-on forklifts parked consecutively along an aisle.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 107,
+    "type": "Attribute Recognition",
+    "question": "How many tiers (levels) do most of the tall, blue and red shelving units typically have for storing goods?",
+    "direct_answer": "Four or five tiers.",
+    "reasoning_answer": "The majority of the high racking systems visible utilize four to five levels for pallet storage.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 108,
+    "type": "Attribute Recognition",
+    "question": "What primary color are most of the ride-on forklifts visible in the warehouse? A) Yellow B) Blue C) Red",
+    "direct_answer": "B) Blue.",
+    "reasoning_answer": "Several blue ride-on forklifts are prominently featured and parked in the warehouse aisles.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 109,
+    "type": "Object Recognition",
+    "question": "What is the yellow and black piece of equipment, resembling a large cylinder, seen on the floor in one of the aisles?",
+    "direct_answer": "Portable industrial fan or heater.",
+    "reasoning_answer": "A yellow and black portable industrial fan/heater unit is visible on the floor space.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 110,
+    "type": "Attribute Recognition",
+    "question": "What color are the horizontal beams of the main shelving units on which pallets are placed?",
+    "direct_answer": "Red.",
+    "reasoning_answer": "The horizontal support beams of the racking system are painted red, contrasting with the blue uprights.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 111,
+    "type": "Attribute Recognition",
+    "question": "What warning text is prominently displayed on a red sticker on many wooden crates? A) 'HEAVY' B) 'FRAGILE' C) 'THIS WAY UP'",
+    "direct_answer": "B) 'FRAGILE'.",
+    "reasoning_answer": "Red stickers with the word 'FRAGILE' are clearly visible on many of the wooden crates.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 112,
+    "type": "Attribute Recognition",
+    "question": "What is the surface texture of the lower part of the walls in several sections of the warehouse?",
+    "direct_answer": "Grey painted brick.",
+    "reasoning_answer": "Some lower wall sections clearly show a grey painted brick pattern.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 113,
+    "type": "Attribute Recognition",
+    "question": "How are the majority of the cardboard boxes visible on the shelves sealed?",
+    "direct_answer": "With tape.",
+    "reasoning_answer": "Most cardboard boxes shown stored on the shelves appear to be closed and secured with tape.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 114,
+    "type": "Object Recognition",
+    "question": "Which of these is a type of forklift NOT predominantly seen in the video? A) Blue sit-down counterbalance forklift B) Yellow automated reach truck C) Red narrow-aisle turret truck.",
+    "direct_answer": "C) Red narrow-aisle turret truck.",
+    "reasoning_answer": "The video shows blue sit-down forklifts and a yellow/black automated reach truck, but no red narrow-aisle turret trucks are visible.",
+    "path": "data/large/no_human/large_01/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 115,
+    "type": "Equipment Safety",
+    "question": "Where is the A-frame ladder located at the beginning of the video?",
+    "direct_answer": "Directly in an aisle.",
+    "reasoning_answer": "The silver A-frame ladder is positioned directly in an aisle at the beginning of the video, potentially obstructing movement.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 116,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the forklifts parked along the wall in the middle section of the warehouse?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "Several forklifts parked against a wall are distinctly blue, as seen from 0:01 to 0:18.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 117,
+    "type": "Object Recognition",
+    "question": "What type of items are stored on the lowest level of many shelving units, directly on the floor or on red support beams?",
+    "direct_answer": "Wooden pallets (some empty, some with goods).",
+    "reasoning_answer": "Wooden pallets are visible beneath boxes and crates on the lower shelves or placed directly on the floor under shelving.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 118,
+    "type": "Attribute Recognition",
+    "question": "What warning is prominently displayed in red letters on several wooden crates?",
+    "direct_answer": "FRAGILE.",
+    "reasoning_answer": "The word 'FRAGILE' is clearly stenciled in red on multiple wooden crates.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 119,
+    "type": "Spatial Understanding",
+    "question": "Where is the yellow wheeled cart located in the warehouse?",
+    "direct_answer": "In an aisle.",
+    "reasoning_answer": "The video clearly shows a yellow wheeled cart positioned in the middle of an aisle, creating a potential obstruction.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 120,
+    "type": "Human Safety",
+    "question": "Are clearly demarcated pedestrian walkways visible in the warehouse aisles? Choose from: Yes, No.",
+    "direct_answer": "No.",
+    "reasoning_answer": "The floor does not show any painted lines or signs indicating dedicated pedestrian walkways.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 121,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the access around the visible fire extinguishers and fire cabinets? Choose from: Clear, Partially obstructed, Fully obstructed.",
+    "direct_answer": "Partially obstructed",
+    "reasoning_answer": "The visible fire extinguishers and fire cabinets have obstructed by the ladder.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 122,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the horizontal support beams on the industrial shelving units? Choose from: Red, Blue, Yellow.",
+    "direct_answer": "Red.",
+    "reasoning_answer": "The horizontal beams of the shelving units where pallets and boxes rest are consistently red.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 123,
+    "type": "Human Safety",
+    "question": "What safety concern is associated with using the A-frame ladder to reach items on high shelves?",
+    "direct_answer": "Overreaching and potential loss of balance.",
+    "reasoning_answer": "The high shelves and the use of an A-frame ladder, particularly for heavy or bulky items, can cause overreaching, leading to a loss of balance and potential falls.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 124,
+    "type": "Equipment Safety",
+    "question": "Where is the red step ladder located?",
+    "direct_answer": "On top of a wooden crate.",
+    "reasoning_answer": "A red step ladder is visible, balanced on top of a wooden crate in the warehouse.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 125,
+    "type": "Human Safety",
+    "question": "What is the condition of the items on the upper shelves?",
+    "direct_answer": "Unsecured.",
+    "reasoning_answer": "Items are stacked high on the upper shelves without visible restraints.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 126,
+    "type": "Object Recognition",
+    "question": "What are the large, light-colored, urn-shaped objects seen on the floor in a few locations?",
+    "direct_answer": "Decorative pots or urns.",
+    "reasoning_answer": "Large, pale, vase-like objects, likely ceramic or stone pots/urns, are placed on the floor.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 127,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the small, wheeled, multi-shelf cart seen near the back wall?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "A small utility cart with multiple shelves and wheels, located near a back wall, is blue.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 128,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the visible shelving units?",
+    "direct_answer": "Good condition.",
+    "reasoning_answer": "The visible portions of the shelving units appear to be in good condition, free from obvious damage like bent uprights or beams.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 129,
+    "type": "Human Safety",
+    "question": "Are emergency exit routes clearly marked and illuminated throughout the warehouse views?",
+    "direct_answer": "Not clearly or consistently.",
+    "reasoning_answer": "While some red signs are present, dedicated, illuminated emergency exit signs and pathways are not consistently visible.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 130,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the space in front of the red fire alarm call points? Choose from: Clear, Obstructed, Partially Obstructed.",
+    "direct_answer": "Clear.",
+    "reasoning_answer": "The red fire alarm call points visible on the walls have clear, unobstructed space in front of them.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 131,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the floor marking lines seen in some wider aisles? Choose from: Yellow, White, Red.",
+    "direct_answer": "White.",
+    "reasoning_answer": "Some sections of the blue warehouse floor have white lines painted on them.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 132,
+    "type": "Spatial Understanding",
+    "question": "Where is the wooden cabinet located?",
+    "direct_answer": "Along the left wall.",
+    "reasoning_answer": "The video shows the wooden cabinet is located along the left wall of the warehouse, opposite the right wall where the forklifts are parked.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 133,
+    "type": "Equipment Safety",
+    "question": "Are the aisles wide enough in all areas to allow a forklift to turn safely without risk of hitting the shelves?",
+    "direct_answer": "Some aisles appear narrower than others, potentially posing a risk.",
+    "reasoning_answer": "While main thoroughfares are wide, some aisles between shelving units are visibly tighter, which could make maneuvering difficult.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 134,
+    "type": "Human Safety",
+    "question": "Is there any personal protective equipment (PPE) such as hard hats or safety vests visible, suggesting it's readily available?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No PPE like hard hats, vests, or gloves is visibly stored or lying around in the warehouse.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 135,
+    "type": "Equipment Safety",
+    "question": "Are any cardboard boxes on shelves showing signs of crushing or damage from improper stacking?",
+    "direct_answer": "Not clearly visible.",
+    "reasoning_answer": "From the distance and angles shown, most boxes appear intact, with no obvious crushing.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 136,
+    "type": "Human Safety",
+    "question": "What is the condition of the warehouse floor regarding debris?",
+    "direct_answer": "Largely free of loose debris.",
+    "reasoning_answer": "The visible floor areas show very little loose debris, suggesting good housekeeping practices.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 137,
+    "type": "Spatial Understanding",
+    "question": "How many distinct types of manual material handling equipment (excluding forklifts/stackers) are visible? Choose from: Two, Three, Four, or Five or more.",
+    "direct_answer": "Three.",
+    "reasoning_answer": "Based on the video, the visible manual material handling equipment fitting the criteria are a yellow wheeled cart, an orange pallet jack, and a silver hand truck, which are three distinct types. The blue/black item appears to be a stacker, which is excluded by the question.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 138,
+    "type": "Equipment Safety",
+    "question": "Are the wooden crates on the shelves secured?",
+    "direct_answer": "No, they are simply placed and unsecured.",
+    "reasoning_answer": "There are no visible straps, interlocks, or other securing mechanisms for the wooden crates on the shelves; they appear to be simply placed.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 139,
+    "type": "Attribute Recognition",
+    "question": "Are the majority of the cardboard boxes generic brown, or do many have distinct company branding/logos?",
+    "direct_answer": "Many have distinct branding/logos.",
+    "reasoning_answer": "Labels like 'EXPRESS DELIVERY SERVICES' and other markings indicate specific company branding on many boxes.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 140,
+    "type": "Human Safety",
+    "question": "What is obstructing the aisle at the start?",
+    "direct_answer": "An open ladder and tubs.",
+    "reasoning_answer": "At the beginning of the video, an open A-frame ladder and several grey tubs are positioned in the aisle, creating an obstruction.",
+    "path": "data/large/no_human/large_02/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 141,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the floor in the warehouse aisles?",
+    "direct_answer": "Dark blue.",
+    "reasoning_answer": "The floor surface visible throughout the warehouse aisles is consistently dark blue.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 142,
+    "type": "Object Recognition",
+    "question": "What type of wall construction is visible along the left side at the beginning of the video?",
+    "direct_answer": "Grey brick wall.",
+    "reasoning_answer": "The lower section of the wall on the left features a distinct grey brick pattern.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 143,
+    "type": "Object Recognition",
+    "question": "What is mounted on the grey brick wall?",
+    "direct_answer": "A red fire extinguisher.",
+    "reasoning_answer": "A red fire extinguisher is visible mounted on the grey brick wall.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 144,
+    "type": "Object Recognition",
+    "question": "What piece of equipment with steps is placed against the wall?",
+    "direct_answer": "A yellow step ladder.",
+    "reasoning_answer": "A movable yellow step ladder is positioned against the grey brick wall.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 145,
+    "type": "Attribute Recognition",
+    "question": "What color is the primary body of the first forklift shown driving into view?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The forklift that appears partway through the video has a predominantly blue chassis.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 146,
+    "type": "Object Recognition",
+    "question": "Besides cardboard boxes, what other type of container is stored on the lower shelves?",
+    "direct_answer": "Wooden crates.",
+    "reasoning_answer": "Wooden crates are visible on the bottom level of some pallet racks, below the cardboard boxes.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 147,
+    "type": "Object Recognition",
+    "question": "What type of material handling equipment is parked near the end of an aisle later in the video?",
+    "direct_answer": "A pallet jack.",
+    "reasoning_answer": "A blue and black manual or electric pallet jack is visible parked against the wall.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 148,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the aisle near the blue forklift?",
+    "direct_answer": "Ample space.",
+    "reasoning_answer": "The blue forklift is parked close to the racks, ensuring the aisle remains clear with ample space for passage.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 149,
+    "type": "Temporal Understanding",
+    "question": "How many forklifts are clearly visible parked or moving in the warehouse during the video?",
+    "direct_answer": "Four.",
+    "reasoning_answer": "One blue forklift drives past, another blue one is parked further down, and two yellow/black reach truck is parked in an aisle.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 150,
+    "type": "Attribute Recognition",
+    "question": "What colors are the uprights and beams of the main pallet racking system?",
+    "direct_answer": "Blue uprights and red/orange beams.",
+    "reasoning_answer": "The vertical supports (uprights) of the racks are blue, and the horizontal load beams are red/orange.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 151,
+    "type": "Attribute Recognition",
+    "question": "What is the condition of the warehouse floor?",
+    "direct_answer": "Clean and free from visible spills or debris.",
+    "reasoning_answer": "The dark blue warehouse floor appears clean and free from any visible spills or debris.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 152,
+    "type": "Equipment Safety",
+    "question": "Is the yellow/black forklift parked in a designated parking area?",
+    "direct_answer": "Cannot determine.",
+    "reasoning_answer": "The forklift is parked in an aisle, but there are no floor markings visible to indicate if it's a designated spot.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 153,
+    "type": "Spatial Understanding",
+    "question": "Is the fire extinguisher located near the beginning or the end of the warehouse section shown, or both of them?",
+    "direct_answer": "both of them.",
+    "reasoning_answer": "The fire extinguisher is seen on the wall early and end in the camera's path through the warehouse.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 154,
+    "type": "Human Safety",
+    "question": "Are there any personnel visible operating the machinery or walking in the aisles?",
+    "direct_answer": "No.",
+    "reasoning_answer": "The video does not show any people within the warehouse space.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 155,
+    "type": "Object Recognition",
+    "question": "What items are stacked on the top level of some racks, above the boxes?",
+    "direct_answer": "Empty wooden pallets.",
+    "reasoning_answer": "Stacks of empty wooden pallets are visible on the highest shelf level in some sections.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 156,
+    "type": "Equipment Safety",
+    "question": "What part of the parked pallet jack poses a tripping hazard?",
+    "direct_answer": "Its forks.",
+    "reasoning_answer": "The pallet jack is parked along the wall, but its forks extend slightly into the potential walkway, posing a tripping hazard.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 157,
+    "type": "Equipment Safety",
+    "question": "Are there any warning signs visible regarding forklift operation or speed limits?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No specific warning signs related to forklift traffic or safety procedures are visible in the footage.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 158,
+    "type": "Object Recognition",
+    "question": "What kind of lighting fixtures are used in the warehouse ceiling?",
+    "direct_answer": "Fluorescent tube lights.",
+    "reasoning_answer": "Long, rectangular fixtures consistent with fluorescent tube lighting hang from the ceiling.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 159,
+    "type": "Attribute Recognition",
+    "question": "What brand name is visible on some of the cardboard boxes?",
+    "direct_answer": "ABA Express Delivery Services.",
+    "reasoning_answer": "The logo and name 'ABA Express Delivery Services' are printed on several boxes.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 160,
+    "type": "Human Safety",
+    "question": "Why is there no immediate risk of collision between machinery and personnel in the warehouse?",
+    "direct_answer": "No personnel are visible.",
+    "reasoning_answer": "The absence of personnel eliminates the possibility of human-machine collision.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 161,
+    "type": "Object Recognition",
+    "question": "What small, yellow objects are placed on the floor near the wall at the end of the aisles?",
+    "direct_answer": "Wheel chocks.",
+    "reasoning_answer": "Small, yellow wedge-shaped objects, likely wheel chocks, are visible on the floor.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 162,
+    "type": "Attribute Recognition",
+    "question": "How are the boxes positioned on the pallets and shelves?",
+    "direct_answer": "Contained within the footprint of the pallets and racking beams.",
+    "reasoning_answer": "The stacked boxes are positioned such that they are contained within the footprint of the pallets and racking beams, without overhanging the edges.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 163,
+    "type": "Attribute Recognition",
+    "question": "What is the general condition of the warehouse floor?",
+    "direct_answer": "Clean and relatively smooth.",
+    "reasoning_answer": "The floor appears well-maintained, without significant cracks, holes, or dirt.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 164,
+    "type": "Equipment Safety",
+    "question": "Are emergency exit routes clearly marked or visible?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No signs or clear pathways indicating emergency exits are visible in the video.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 165,
+    "type": "Object Recognition",
+    "question": "What type of forklift is the yellow and black machine?",
+    "direct_answer": "Reach truck/forklift.",
+    "reasoning_answer": "The design with a standing operator position and extending mast is characteristic of a reach truck.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 166,
+    "type": "Spatial Understanding",
+    "question": "Are the shelves loaded uniformly, or are some sections emptier than others?",
+    "direct_answer": "Some sections are emptier.",
+    "reasoning_answer": "While many shelves are full, some sections, particularly higher levels, have empty pallet spaces.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 167,
+    "type": "Object Recognition",
+    "question": "What is used beneath the stacks of boxes on the shelves?",
+    "direct_answer": "Wooden pallets.",
+    "reasoning_answer": "The cardboard boxes are stacked upon wooden pallets placed on the rack beams.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 168,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the visible pallet racking components?",
+    "direct_answer": "Good condition without obvious dents or damage.",
+    "reasoning_answer": "The racking uprights and beams shown in the video appear to be in good condition without obvious dents or damage.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 169,
+    "type": "Spatial Understanding",
+    "question": "Are the aisles numbered or marked for location identification?",
+    "direct_answer": "No.",
+    "reasoning_answer": "There are no visible signs or floor markings indicating aisle numbers or specific locations.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 170,
+    "type": "Human Safety",
+    "question": "Is personal protective equipment (PPE) like hard hats or safety vests visible anywhere?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No PPE is visible, consistent with the absence of personnel in the video.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 171,
+    "type": "Object Recognition",
+    "question": "What material handling aid is seen near the end of the racking rows, besides forklifts and pallet jacks?",
+    "direct_answer": "A metal hand trolley/cart.",
+    "reasoning_answer": "A small, four-wheeled metal trolley is visible parked in an aisle.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 172,
+    "type": "Equipment Safety",
+    "question": "What type of protective covers are on the overhead lights?",
+    "direct_answer": "Diffuser covers.",
+    "reasoning_answer": "The overhead fluorescent light fixtures have diffuser covers visible.",
+    "path": "data/large/no_human/large_03/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 173,
+    "type": "Equipment Safety",
+    "question": "Describe the condition of the aisles in the warehouse.",
+    "direct_answer": "Wide and clear.",
+    "reasoning_answer": "The video shows wide aisles between shelving units and minimal obstructions on the floor, allowing for forklift movement.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 174,
+    "type": "Equipment Safety",
+    "question": "Describe how the goods on the shelves are stacked.",
+    "direct_answer": "Neatly stacked and aligned.",
+    "reasoning_answer": "The video shows the boxes and crates on the shelves are generally neatly stacked and aligned.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 175,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the floor in the warehouse aisles? Choose from: Grey, Blue, Green.",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The warehouse floor is consistently shown as a dark blue color.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 176,
+    "type": "Spatial Understanding",
+    "question": "How are the overhead lights positioned?",
+    "direct_answer": "In rows above the aisles, directing light downwards.",
+    "reasoning_answer": "The lights are arranged in rows directly above the aisles, which effectively directs the light downwards into the working areas.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 177,
+    "type": "Human Safety",
+    "question": "Is there any personal protective equipment (PPE) visibly being used or stored?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No workers are visible, and no PPE items like helmets or vests are clearly shown stored or in use.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 178,
+    "type": "Equipment Safety",
+    "question": "What is the condition and stability of the wooden pallets stacked against the wall?",
+    "direct_answer": "Mostly stacked upright with potential toppling risk for large stacks.",
+    "reasoning_answer": "The wooden pallets leaning against the wall are mostly stacked upright, but large stacks could pose a toppling risk if not properly secured.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 179,
+    "type": "Attribute Recognition",
+    "question": "What color is the forklift that has 'LESTAK LOGISTICS' written on its side?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "A blue forklift is shown with 'LESTAK LOGISTICS' branding on its body.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 180,
+    "type": "Object Recognition",
+    "question": "Besides cardboard boxes, what other type of container is seen stored on the shelves, made of wood?",
+    "direct_answer": "Wooden crates.",
+    "reasoning_answer": "Larger, sturdy wooden crates are visible on the shelves alongside cardboard boxes.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 181,
+    "type": "Attribute Recognition",
+    "question": "What material primarily constitutes the walls of the warehouse?",
+    "direct_answer": "Bricks and paneling.",
+    "reasoning_answer": "The lower part of the walls is grey brick, while the upper part appears to be lighter-colored paneling.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 182,
+    "type": "Human Safety",
+    "question": "Where are the potential blind corners visible in the warehouse?",
+    "direct_answer": "At the ends of the shelving aisles.",
+    "reasoning_answer": "The video shows that the ends of the shelving aisles obstruct visibility, creating potential blind corners where forklift and pedestrian traffic could conflict.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 183,
+    "type": "Spatial Understanding",
+    "question": "Are the shelving units placed back-to-back or with space in between them?",
+    "direct_answer": "Most are back-to-back, forming aisles.",
+    "reasoning_answer": "The layout shows pairs of shelving units placed back-to-back, creating long aisles for access.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 184,
+    "type": "Object Recognition",
+    "question": "What piece of equipment with a long platform is visible near the end of the video, used for moving goods horizontally?",
+    "direct_answer": "Conveyor belt system.",
+    "reasoning_answer": "A blue conveyor belt system with rollers is shown, designed for transporting items.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 185,
+    "type": "Equipment Safety",
+    "question": "What is visible on the conveyor belt system when it is first shown?",
+    "direct_answer": "Four box.",
+    "reasoning_answer": "Four box is visible on the conveyor belt system.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 186,
+    "type": "Object Recognition",
+    "question": "What is the type of ladder seen leaning against a shelving unit in the far background? Choose from: Rolling safety ladder, A-frame ladder, Extension ladder.",
+    "direct_answer": "Extension ladder.",
+    "reasoning_answer": "A grey extension stepladder is visible leaning against a tall shelf in a distant part of the warehouse.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 187,
+    "type": "Equipment Safety",
+    "question": "What is the visible condition of the wooden pallets?",
+    "direct_answer": "Intact and in good condition.",
+    "reasoning_answer": "The wooden pallets shown throughout the video, whether holding boxes or stacked, appear to be intact and in good condition.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 188,
+    "type": "Attribute Recognition",
+    "question": "What color are the upright supports of the main shelving units?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The vertical posts of the prominent shelving systems are consistently blue.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 189,
+    "type": "Human Safety",
+    "question": "What is the condition of the warehouse floor?",
+    "direct_answer": "Smooth and well-maintained.",
+    "reasoning_answer": "The warehouse floor appears to be smooth and well-maintained, without obvious tripping hazards like large cracks or holes.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 190,
+    "type": "Object Recognition",
+    "question": "What are the yellow items placed on the floor near the back wall, often used with vehicles?",
+    "direct_answer": "Wheel chocks.",
+    "reasoning_answer": "Small, yellow, wedge-shaped objects, identifiable as wheel chocks, are seen on the floor.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 191,
+    "type": "Attribute Recognition",
+    "question": "What is written on some boxes in addition to 'FRAGILE', indicating a brand or company?",
+    "direct_answer": "INDET or EXPRESS.",
+    "reasoning_answer": "Labels like 'INDET' and 'EXPRESS' are visible on different sets of boxes, likely company or product names.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 192,
+    "type": "Temporal Understanding",
+    "question": "How many blue forklifts are clearly visible simultaneously at any point in the video?",
+    "direct_answer": "One.",
+    "reasoning_answer": "The video shows one blue forklift at any point.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 193,
+    "type": "Object Recognition",
+    "question": "What color is the other type of forklift seen in the warehouse, besides the blue one?",
+    "direct_answer": "Black.",
+    "reasoning_answer": "A black forklift is also visible operating or parked in the warehouse aisles.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 194,
+    "type": "Equipment Safety",
+    "question": "How are the boxes on the top shelves visibly secured? Choose from: By stacking only, With nets, With straps, With shrink-wrap.",
+    "direct_answer": "By stacking only.",
+    "reasoning_answer": "No nets, straps, or shrink-wrap are visible specifically securing the top-level boxes; they appear to be secured solely by stacking.",
+    "path": "data/large/no_human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 195,
+    "type": "Human Safety",
+    "question": "What warning symbol is visible on the side of the 'RUNTAGE-X' X-ray machines?",
+    "direct_answer": "A symbol depicting a forklift with a red strikethrough.",
+    "reasoning_answer": "The machines are marked with a sign clearly showing a forklift inside a circle with a red diagonal line through it, indicating that forklifts should not be used with or near the machine.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 196,
+    "type": "Human Safety",
+    "question": "Where is an office chair located near an X-ray scanner?",
+    "direct_answer": "Directly in front of an X-ray scanner's conveyor.",
+    "reasoning_answer": "An office chair is positioned directly in front of an X-ray scanner's conveyor.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 197,
+    "type": "Human Safety",
+    "question": "What potential issues are identified with the placement of the pool table in the warehouse?",
+    "direct_answer": "Distraction or occupying space needed for operations.",
+    "reasoning_answer": "The pool table is located in an open area of the warehouse, which could distract workers or occupy space needed for operations.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 198,
+    "type": "Human Safety",
+    "question": "Where are the sofas located in the warehouse?",
+    "direct_answer": "In a lounge-like area, somewhat sectioned off.",
+    "reasoning_answer": "The sofas are placed in a designated lounge area within the warehouse, which is set apart from the main zones containing heavy machinery and high-traffic industrial activity.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 199,
+    "type": "Equipment Safety",
+    "question": "Where is a fire extinguisher located in relation to the lounge area?",
+    "direct_answer": "On the wall near the lounge area.",
+    "reasoning_answer": "A red fire extinguisher is visible mounted on the wall adjacent to the lounge area containing the pool table.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 200,
+    "type": "Equipment Safety",
+    "question": "What protective equipment is located above the operator on the blue forklift?",
+    "direct_answer": "A structural overhead guard.",
+    "reasoning_answer": "The blue forklift has a structural overhead guard positioned directly above the operator's seat.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 201,
+    "type": "Human Safety",
+    "question": "How are the forklift and pedestrian areas demarcated on the floor? Choose from: By specific lines marking forklift routes separate from pedestrian areas, They are not demarcated by specific lines separating forklift routes from pedestrian areas, By contrasting floor colors.",
+    "direct_answer": "They are not demarcated by specific lines separating forklift routes from pedestrian areas.",
+    "reasoning_answer": "Specific floor markings for forklift routes separate from pedestrian areas are not visible in the video.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 202,
+    "type": "Equipment Safety",
+    "question": "What are the marked characters visible on the large red gantry crane?",
+    "direct_answer": "5011 or 50II.",
+    "reasoning_answer": "The red gantry crane has 5011 or 50II stenciled on its structure.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 203,
+    "type": "Equipment Safety",
+    "question": "Are emergency stop buttons or pull-cords readily visible along the extensive blue roller conveyor systems?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Emergency stop mechanisms are not clearly visible on the sections of the blue conveyor systems shown.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 204,
+    "type": "Human Safety",
+    "question": "Are pinch point warning labels visible on the moving parts of the conveyor belt systems?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Specific pinch point warning labels are not identifiable on the conveyor systems from the video footage.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 205,
+    "type": "Equipment Safety",
+    "question": "What supports the multi-level blue conveyor systems?",
+    "direct_answer": "Robust blue metal frames.",
+    "reasoning_answer": "The conveyor systems are supported by robust blue metal frames, appearing stable in the video.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 206,
+    "type": "Equipment Safety",
+    "question": "What is the state of securing for the wooden crates on the upper shelves? Choose from: Secured with straps or interlocking, Partially secured, Unsecured.",
+    "direct_answer": "Unsecured.",
+    "reasoning_answer": "The wooden crates on the upper shelves do not show any visible signs of interlocking or strapping to secure them.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 207,
+    "type": "Equipment Safety",
+    "question": "What securing measures are visible on the stacked palletized cardboard boxes? Choose from: Visible shrink-wrapping or strapping, No apparent additional securing measures, Wrapped in large tarps.",
+    "direct_answer": "No apparent additional securing measures.",
+    "reasoning_answer": "Several pallets show cardboard boxes stacked high, and no shrink-wrapping or strapping is visible, indicating a lack of apparent additional securing measures.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 208,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the tall metal shelving units?",
+    "direct_answer": "Good condition.",
+    "reasoning_answer": "The tall metal shelving units visible in the footage appear to be in good condition without clear signs of damage, bending, or deformation.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 209,
+    "type": "Attribute Recognition",
+    "question": "What brand name is printed on the archway of the walk-through metal detectors? Choose from: A) RUNTAGE, B) OMX-RAY, C) SECURESCAN.",
+    "direct_answer": "B) OMX-RAY.",
+    "reasoning_answer": "The brand 'OMX-RAY' is clearly visible on the metal detector archways.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 210,
+    "type": "Human Safety",
+    "question": "What safety features are installed on the elevated platforms and stairs?",
+    "direct_answer": "Guardrails.",
+    "reasoning_answer": "Guardrails are visible along the edges of the elevated platforms and alongside the stairs, providing fall protection.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 211,
+    "type": "Equipment Safety",
+    "question": "How are the power cords for the pedestal fans routed to minimize trip hazards?",
+    "direct_answer": "Near walls, away from walkways.",
+    "reasoning_answer": "The pedestal fans are located near walls, and their power cords are routed to avoid stretching across main pedestrian or traffic routes, minimizing trip hazards.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 212,
+    "type": "Human Safety",
+    "question": "What is covering the blades of the pedestal fans?",
+    "direct_answer": "Protective grilles.",
+    "reasoning_answer": "The blades of all visible pedestal fans are covered by protective grilles.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 213,
+    "type": "Attribute Recognition",
+    "question": "What are the two predominant colors of the plastic barrels stored in various locations within the warehouse?",
+    "direct_answer": "Red and blue.",
+    "reasoning_answer": "Groups of both red and blue plastic barrels are visible on the warehouse floor.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 214,
+    "type": "Equipment Safety",
+    "question": "Are the barrels and IBC totes placed on secondary containment, or directly on the floor/standard pallets?",
+    "direct_answer": "Directly on the floor or standard pallets.",
+    "reasoning_answer": "The barrels and IBC totes are observed resting directly on the floor or on standard pallets, not on secondary containment devices.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 215,
+    "type": "Human Safety",
+    "question": "What type of lights are used for illumination in the warehouse?",
+    "direct_answer": "Overhead fluorescent lighting fixtures.",
+    "reasoning_answer": "Numerous overhead fluorescent lighting fixtures are visible, providing general illumination throughout the warehouse.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 216,
+    "type": "Object Recognition",
+    "question": "What is the model name printed on the side of the primary X-ray baggage scanners?",
+    "direct_answer": "RUNTAGE-X.",
+    "reasoning_answer": "The name 'RUNTAGE-X' is clearly identifiable on the side panels of the X-ray scanners.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 217,
+    "type": "Temporal Understanding",
+    "question": "Are the walk-through metal detectors positioned before or after the X-ray baggage scanners in the typical flow of personnel/item screening?",
+    "direct_answer": "After.",
+    "reasoning_answer": "Personnel would pass through the metal detectors after placing items on the X-ray scanner conveyor belts.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 218,
+    "type": "Attribute Recognition",
+    "question": "What brand name is visible on the red gantry crane structure?",
+    "direct_answer": "Demicargo",
+    "reasoning_answer": "The name 'Demicargo' can be seen printed on parts of the red gantry crane.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 219,
+    "type": "Equipment Safety",
+    "question": "What safety devices are visible near the large wheels of the red gantry crane?",
+    "direct_answer": "No wheel chocks or external braking mechanisms are visible.",
+    "reasoning_answer": "The provided views show the large wheels of the gantry crane, and neither wheel chocks nor external braking mechanisms are visible near them.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 220,
+    "type": "Equipment Safety",
+    "question": "What is the visibility of hazard identification labels on the IBC totes from the camera's perspective?",
+    "direct_answer": "Not clearly visible.",
+    "reasoning_answer": "While IBC totes are present, specific hazard labels identifying their contents cannot be clearly discerned from the camera's perspective due to distance and angle.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 221,
+    "type": "Attribute Recognition",
+    "question": "What is the primary material of the large, empty shelving unit seen in the lounge area? Choose from: A) Plastic, B) Wood, C) Metal.",
+    "direct_answer": "B) Wood.",
+    "reasoning_answer": "The bookcase-style shelving unit in the lounge area is visibly constructed from wood.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 222,
+    "type": "Human Safety",
+    "question": "Are clearly marked 'EXIT' signs indicating emergency egress routes visible throughout the warehouse areas shown?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Dedicated 'EXIT' signs are not prominently visible in the sections of the warehouse shown in the walkthrough.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 223,
+    "type": "Spatial Understanding",
+    "question": "How are the stacks of cardboard boxes on pallets generally arranged within the storage areas?",
+    "direct_answer": "In neat rows along aisles and on shelving units.",
+    "reasoning_answer": "The palletized boxes are mostly organized into neat rows along aisles and on shelving units, indicating a planned arrangement.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 224,
+    "type": "Spatial Understanding",
+    "question": "How are the fire extinguishers located within the warehouse? Choose from: At regular intervals, Randomly placed, Clustered together.",
+    "direct_answer": "Clustered together.",
+    "reasoning_answer": "All of the visible red extinguisher cabinets are mounted in small groups along the same walls.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 225,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the floor around the stored barrels and IBC totes?",
+    "direct_answer": "Clean and dry.",
+    "reasoning_answer": "The floor area around the visible barrels and IBC totes appears clean and dry, with no obvious spills, leakage, or stains.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 226,
+    "type": "Human Safety",
+    "question": "Is the platform near the crane controls enclosed or open?",
+    "direct_answer": "Open.",
+    "reasoning_answer": "The visible platform near the crane controls appears to be open.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 227,
+    "type": "Attribute Recognition",
+    "question": "What symbol is predominantly featured on the yellow triangular warning signs placed near the base of the gantry crane?",
+    "direct_answer": "Exclamation mark.",
+    "reasoning_answer": "The yellow triangular signs visible near the base of the gantry crane show a black exclamation mark.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 228,
+    "type": "Equipment Safety",
+    "question": "What indicates that the main aisles are sufficiently wide to allow safe maneuvering of a forklift?",
+    "direct_answer": "A forklift is present in an aisle.",
+    "reasoning_answer": "The presence of a forklift operating within one of the aisles between the tall shelving units indicates they are wide enough for safe maneuvering. The video shows a forklift in an aisle.",
+    "path": "data/large/no_human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 229,
+    "type": "Human Safety",
+    "question": "What equipment is provided for accessing items on the higher shelves of the racking system?",
+    "direct_answer": "A tall, rolling metal ladder.",
+    "reasoning_answer": "A tall, rolling metal ladder is visible near a section of high shelving, serving as the means of access.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 230,
+    "type": "Equipment Safety",
+    "question": "How are the items on the top shelves of the main racking system stored? Choose from: Secured with netting/straps, Loose boxes/crates, Wrapped in plastic.",
+    "direct_answer": "Loose boxes/crates.",
+    "reasoning_answer": "The items on the top shelves are visible as loose boxes and crates without netting, straps, or plastic wrapping.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 231,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the main aisle? Choose from: Clear, Partially obstructed, Obstructed.",
+    "direct_answer": "Obstructed.",
+    "reasoning_answer": "Equipment such as a pallet jack, hand truck, and forklift, along with boxes, barrels, and other items, are present in the main aisle, obstructing it.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 232,
+    "type": "Equipment Safety",
+    "question": "What object is left unattended in an aisle?",
+    "direct_answer": "A blue hand truck.",
+    "reasoning_answer": "A blue hand truck is visible parked in an aisle.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 233,
+    "type": "Equipment Safety",
+    "question": "Where is the orange pallet jack located? Choose from: In a designated parking area, In an open walkway, Next to the conveyor belt.",
+    "direct_answer": "In an open walkway.",
+    "reasoning_answer": "An orange pallet jack is located in an open floor area that serves as a walkway.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 234,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the rollers on the blue conveyor belt system?",
+    "direct_answer": "Exposed and without guards.",
+    "reasoning_answer": "The video shows that the rollers on the blue conveyor belt system are not covered by any visible safety guards.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 235,
+    "type": "Human Safety",
+    "question": "Are fire extinguishers or other fire safety equipment clearly visible and readily accessible in multiple locations throughout the warehouse areas shown?",
+    "direct_answer": "No.",
+    "reasoning_answer": "The video walkthrough does not prominently display fire extinguishers or other fire suppression equipment in the traversed areas.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 236,
+    "type": "Equipment Safety",
+    "question": "What type of fenced storage area is visible in the warehouse?",
+    "direct_answer": "A wire mesh enclosure.",
+    "reasoning_answer": "There is a wire mesh fenced enclosure located in one section of the warehouse, typically used for secure storage.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 237,
+    "type": "Human Safety",
+    "question": "Are there any visible specific hazard warning signs, such as 'Forklift Operating Area' or 'Watch Your Step'?",
+    "direct_answer": "No.",
+    "reasoning_answer": "General warning signs for specific operational hazards are not prominently visible in the areas traversed.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 238,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the area around the yellow jib cranes? Choose from: Open, Cluttered, Blocked.",
+    "direct_answer": "Open.",
+    "reasoning_answer": "The area around the base of the yellow jib cranes appears open, providing operational clearance.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 239,
+    "type": "Equipment Safety",
+    "question": "What is the state of the tarps covering some pallets? Choose from: Securely fastened, Loose or unsecured, Partially removed.",
+    "direct_answer": "Securely fastened.",
+    "reasoning_answer": "The tarps are draped over the pallets and remain in place, indicating they are securely fastened.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 240,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the conveyor system's loading/unloading points? Choose from: Clear, Obstructed, Partially obstructed.",
+    "direct_answer": "Clear.",
+    "reasoning_answer": "The areas where items are loaded or unloaded from the conveyor system appear free of any immediate obstructions.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 241,
+    "type": "Human Safety",
+    "question": "Where are potential blind spots for forklift drivers located due to tall stacks?",
+    "direct_answer": "At aisle intersections.",
+    "reasoning_answer": "Tall stacks of boxes and crates on shelves are present, creating blind spots, especially at aisle intersections within the warehouse.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 242,
+    "type": "Equipment Safety",
+    "question": "What is the color of the bases of the large yellow supports for the blue gantry crane system?",
+    "direct_answer": "Yellow.",
+    "reasoning_answer": "The bases of the large yellow supports for the blue gantry crane system are solid yellow, without any hazard stripes.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 243,
+    "type": "Object Recognition",
+    "question": "What types of containers are primarily stored within the wire mesh caged enclosure?",
+    "direct_answer": "Barrels/Drums (red and blue).",
+    "reasoning_answer": "Red and blue cylindrical containers, resembling barrels or drums, are visible inside the fenced area.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 244,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the large overhead gantry crane structure that spans a section of the warehouse?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The main structural components of the large gantry crane are painted blue.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 245,
+    "type": "Attribute Recognition",
+    "question": "What is the predominant color of the manual pallet jacks visible in various locations in the warehouse? Options: Orange, Blue, Yellow.",
+    "direct_answer": "Orange.",
+    "reasoning_answer": "Multiple manual pallet jacks are seen, and the most common color among them is orange.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 246,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the flooring material in the main warehouse area?",
+    "direct_answer": "Blue-grey (or dark blue).",
+    "reasoning_answer": "The warehouse floor has a consistent blue-grey or dark blue color throughout.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 247,
+    "type": "Attribute Recognition",
+    "question": "What are the primary colors of the components of the main, tall racking system (uprights and beams)?",
+    "direct_answer": "Blue and Red.",
+    "reasoning_answer": "The vertical supports (uprights) of the racking are blue, and the horizontal load-bearing beams are red.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 248,
+    "type": "Attribute Recognition",
+    "question": "What material are the large shipping containers seen on the lower shelves predominantly made of? Options: Wood, Metal, Plastic.",
+    "direct_answer": "Wood.",
+    "reasoning_answer": "Many large containers on the lower shelves are constructed from light-colored wood, forming crates.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 249,
+    "type": "Spatial Understanding",
+    "question": "Is the blue conveyor belt system located more towards the center of the warehouse floor or predominantly along one of the side walls?",
+    "direct_answer": "Towards the center.",
+    "reasoning_answer": "The conveyor system is situated in a relatively central area, with aisles and storage on either side, rather than being positioned along a wall.",
+    "path": "data/large/no_human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 250,
+    "type": "Attribute Recognition",
+    "question": "What color are the two air compressors visible at the start of the video?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The two air compressors located against the grey brick wall are painted blue.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 251,
+    "type": "Spatial Understanding",
+    "question": "Where is the fire extinguisher located near aisle 06? Choose from: On a shelf, Mounted on a yellow base next to the shelving unit, On the floor, Hanging from the ceiling.",
+    "direct_answer": "Mounted on a yellow base next to the shelving unit.",
+    "reasoning_answer": "The red fire extinguisher is visibly mounted on a yellow base right next to the shelving unit marked aisle 06.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 252,
+    "type": "Temporal Understanding",
+    "question": "How many yellow quadrupedal robots (robotic dogs) are seen walking in a single file line along the wall?",
+    "direct_answer": "Six.",
+    "reasoning_answer": "A sequence shows six yellow robotic dogs walking one after another along the warehouse wall.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 253,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the air compressors seen parked between aisles 01 and 02?",
+    "direct_answer": "Blue",
+    "reasoning_answer": "The air compressors seen parked near aisle 01 are blue.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 254,
+    "type": "Object Recognition",
+    "question": "What large, wheeled air-circulating device is positioned against a grey brick wall?",
+    "direct_answer": "Industrial fan.",
+    "reasoning_answer": "A large, black industrial fan on wheels is shown, likely used for ventilation or cooling.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 255,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the forklift parked near aisle 02, labeled 'atlas'?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The forklift identified by the brand 'atlas' and located near aisle 02 is painted blue.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 256,
+    "type": "Spatial Understanding",
+    "question": "What is the state of some of the blue shelving units in the warehouse?",
+    "direct_answer": "Empty.",
+    "reasoning_answer": "Some rows of blue metal shelving units are depicted with no items stored on them.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 257,
+    "type": "Object Recognition",
+    "question": "What types of containers containing liquids are located on some shelves?",
+    "direct_answer": "Bottles and jugs.",
+    "reasoning_answer": "The shelves in some aisles, specifically aisle 03, are stocked with various bottles and jugs, commonly used for storing liquids.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 258,
+    "type": "Spatial Understanding",
+    "question": "What is visible along the main brick wall?",
+    "direct_answer": "Multiple fire alarm stations.",
+    "reasoning_answer": "Multiple fire alarm stations are visible along the wall.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 259,
+    "type": "Object Recognition",
+    "question": "What color are the fixed stairs with handrails providing access to a higher level or platform?",
+    "direct_answer": "Yellow.",
+    "reasoning_answer": "A set of yellow metal stairs with handrails is visible, indicating an access point to an elevated area.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 260,
+    "type": "Spatial Understanding",
+    "question": "What is the configuration of handrails on the yellow stairs? Choose from: Both sides, Only one side, No handrails.",
+    "direct_answer": "Only one side.",
+    "reasoning_answer": "The yellow stairs shown in the video have a visible handrail on only one side.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 261,
+    "type": "Object Recognition",
+    "question": "What is the state of the yellow forklifts shown in the warehouse aisles?",
+    "direct_answer": "Stationary.",
+    "reasoning_answer": "The yellow forklifts visible in the warehouse aisles are not moving or operating; they are parked and appear stationary.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 262,
+    "type": "Object Recognition",
+    "question": "What type of structures, painted blue and elevated, are seen in some areas, resembling a conveyor or sorting system?",
+    "direct_answer": "Elevated conveyor/sorting system framework.",
+    "reasoning_answer": "There are blue, waist-to-chest height metal frameworks that look like part of an automated sorting or conveyor system.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 263,
+    "type": "Object Recognition",
+    "question": "What kind of small, mobile units are observed moving on the floor beneath the blue elevated conveyor framework?",
+    "direct_answer": "Wheeled autonomous mobile robots (AMRs).",
+    "reasoning_answer": "Small, flat, wheeled robots are seen navigating the floor, likely for transporting items.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 264,
+    "type": "Spatial Understanding",
+    "question": "What is placed on top of the blue elevated conveyor system framework?",
+    "direct_answer": "Cardboard boxes.",
+    "reasoning_answer": "Several cardboard boxes are visible resting on the surfaces of the blue conveyor-like structures, particularly starting from the 2:20 timestamp.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 265,
+    "type": "Spatial Understanding",
+    "question": "What items are visible at the wall-mounted first aid station?",
+    "direct_answer": "A first aid kit, eyewash, and a fire extinguisher.",
+    "reasoning_answer": "The wall-mounted station is equipped with a first aid kit, eyewash, and a fire extinguisher.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 266,
+    "type": "Object Recognition",
+    "question": "What type of personnel is primarily visible in the warehouse? Choose from: Human workers, Automated robots and vehicles, Both human workers and automated robots/vehicles.",
+    "direct_answer": "Automated robots and vehicles.",
+    "reasoning_answer": "Throughout the video, automated robots and vehicles like forklifts are visible operating in the warehouse aisles, but no human personnel are seen.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 267,
+    "type": "Attribute Recognition",
+    "question": "What is the predominant surface material of the main walls in the warehouse area, painted grey?",
+    "direct_answer": "Brick.",
+    "reasoning_answer": "The texture and pattern visible on the grey walls indicate they are constructed from brick.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 268,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the floor surface throughout most of the warehouse?",
+    "direct_answer": "Dark blue or dark grey.",
+    "reasoning_answer": "The warehouse floor is consistently a dark, smooth surface, appearing dark blue or grey.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 269,
+    "type": "Object Recognition",
+    "question": "What information do the signs attached to the shelving units provide?",
+    "direct_answer": "Aisle numbers and the types of boxes stored.",
+    "reasoning_answer": "Signs on the ends of the shelving units, such as '06 BOXES P-R', indicate the aisle number and the range of box types stored for that section.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 270,
+    "type": "Object Recognition",
+    "question": "What type of ladder is visible in the aisle containing boxes?",
+    "direct_answer": "A silver metal step ladder.",
+    "reasoning_answer": "A silver metal step ladder is visible leaning against a shelf in the aisle with boxes.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 271,
+    "type": "Attribute Recognition",
+    "question": "What is the brand name printed on the side of the blue forklift? Choose the answer from the following options: CAT, ATLAS, HYSTER.",
+    "direct_answer": "ATLAS.",
+    "reasoning_answer": "The name 'ATLAS' is clearly visible in white lettering on the side of the blue forklift.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 272,
+    "type": "Attribute Recognition",
+    "question": "What is visible on the front of the yellow robotic dogs?",
+    "direct_answer": "Visible components resembling sensors or cameras.",
+    "reasoning_answer": "Components resembling sensors or cameras are clearly visible on the front of the robots.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 273,
+    "type": "Attribute Recognition",
+    "question": "What is the state of the conveyor belts on the blue elevated framework system? Choose from: Actively moving, Stationary, Being loaded.",
+    "direct_answer": "Stationary.",
+    "reasoning_answer": "The boxes on the blue framework are not moving, and the belts show no signs of motion.",
+    "path": "data/large/no_human/large_07/large_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 274,
+    "type": "Human Safety",
+    "question": "What is the state of the A-frame ladder at the beginning of the video?",
+    "direct_answer": "Standing open and unattended.",
+    "reasoning_answer": "The A-frame ladder shown at the beginning of the video is standing open in an aisle, and no one is attending to it.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 275,
+    "type": "Equipment Safety",
+    "question": "Could the small yellow cart placed near the A-frame ladder at the start of the video pose an obstruction hazard in the aisle? Choose from: Yes, No, Partially.",
+    "direct_answer": "Yes.",
+    "reasoning_answer": "The yellow cart is positioned within the aisle space, which could impede movement or become a trip hazard.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 276,
+    "type": "Object Recognition",
+    "question": "What type of items are predominantly stored on the red and blue shelving units throughout the warehouse?",
+    "direct_answer": "Cardboard boxes and wooden crates.",
+    "reasoning_answer": "The shelves are visibly stocked mainly with cardboard boxes of various sizes and some larger wooden crates.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 277,
+    "type": "Attribute Recognition",
+    "question": "What are the primary colors of the structural components of the tall shelving units (uprights and beams)?",
+    "direct_answer": "Blue and red.",
+    "reasoning_answer": "The vertical uprights of the shelving units are painted blue, and the horizontal beams are painted red.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 278,
+    "type": "Spatial Understanding",
+    "question": "How wide are the main aisles in relation to single forklift operation? Choose from: Sufficiently wide for operation without obstruction, Too narrow for operation, Wide enough for two forklifts to pass.",
+    "direct_answer": "Sufficiently wide for operation without obstruction.",
+    "reasoning_answer": "Forklifts are observed moving through the aisles, and the aisles appear sufficiently wide for their operation without obstruction.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 279,
+    "type": "Human Safety",
+    "question": "What is the primary color of the work attire worn by the individuals seen handling boxes and operating equipment?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "The workers are consistently shown wearing blue uniforms or overalls.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 280,
+    "type": "Equipment Safety",
+    "question": "Is the yellow extendable safety barrier observed in an aisle fully extended to block the aisle, or partially retracted?",
+    "direct_answer": "Partially retracted.",
+    "reasoning_answer": "The yellow safety barrier is visible but not fully extended across the aisle, leaving a passage.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 281,
+    "type": "Attribute Recognition",
+    "question": "What color are the line markings on the dark blue warehouse floor?",
+    "direct_answer": "White.",
+    "reasoning_answer": "White lines are painted on the floor, likely to demarcate walkways or storage areas.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 282,
+    "type": "Equipment Safety",
+    "question": "How are the goods on the pallets secured?",
+    "direct_answer": "By relying on stacking stability.",
+    "reasoning_answer": "Most stacks of boxes on pallets do not appear to be shrink-wrapped or otherwise secured with straps or wrapping. Their stability relies on how the boxes are stacked.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 283,
+    "type": "Human Safety",
+    "question": "When a worker in a blue uniform bends to pick up a box from a low shelf, is he primarily using his knees to bend or his back?",
+    "direct_answer": "Primarily his back.",
+    "reasoning_answer": "The worker is observed bending significantly at the waist with relatively straight legs, indicating poor ergonomic posture.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 284,
+    "type": "Equipment Safety",
+    "question": "What is present in the area cordoned off by orange cones and a yellow 'Caution Wet Floor' sign?",
+    "direct_answer": "Scattered debris.",
+    "reasoning_answer": "The area is cordoned off by orange cones and a 'Caution Wet Floor' sign, and scattered debris is present on the floor.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 285,
+    "type": "Temporal Understanding",
+    "question": "What is the potential risk if a forklift drives through a spill area without caution?",
+    "direct_answer": "Increased risk of skidding or loss of control.",
+    "reasoning_answer": "Driving through liquid spills without caution can reduce traction, which can lead to skidding or loss of control.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 286,
+    "type": "Human Safety",
+    "question": "What safety feature are the blue forklifts equipped with?",
+    "direct_answer": "Overhead guards.",
+    "reasoning_answer": "The blue forklifts visible in the warehouse are equipped with overhead guards designed to protect the operator.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 287,
+    "type": "Equipment Safety",
+    "question": "Describe the placement and stability of the loads on the forklift forks.",
+    "direct_answer": "They appear centered and stable.",
+    "reasoning_answer": "The pallets and boxes on the forklifts are positioned in the middle of the forks and remain steady while being moved.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 288,
+    "type": "Attribute Recognition",
+    "question": "What is the predominant color of the flooring throughout the warehouse?",
+    "direct_answer": "Dark blue or dark grey.",
+    "reasoning_answer": "The warehouse floor is consistently shown as a dark blue or dark grey, slightly reflective surface.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 289,
+    "type": "Equipment Safety",
+    "question": "What is the apparent condition of the tall, heavily loaded shelving units? Choose from: Stable and undamaged, Unstable or damaged.",
+    "direct_answer": "Stable and undamaged.",
+    "reasoning_answer": "The shelving units appear upright and robust, with no visible signs of instability or structural damage.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 290,
+    "type": "Object Recognition",
+    "question": "What is the yellow, four-wheeled object with a handle, seen near the brick wall at the beginning of the video?",
+    "direct_answer": "A small cart or trolley.",
+    "reasoning_answer": "A yellow, wheeled cart suitable for transporting small items is visible in the initial scene.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 291,
+    "type": "Attribute Recognition",
+    "question": "What is the apparent color of the wooden crates?",
+    "direct_answer": "Light-colored.",
+    "reasoning_answer": "The wooden crates visible on the shelves have a clean, light-colored appearance.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 292,
+    "type": "Human Safety",
+    "question": "How are pedestrian and forklift operational zones organized in the main aisles?",
+    "direct_answer": "Shared spaces.",
+    "reasoning_answer": "The main aisles function as shared spaces used by both pedestrians and forklifts, lacking clearly demarcated or separated walkways.",
+    "path": "data/large/human/large_04/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 293,
+    "type": "Human Safety",
+    "question": "Based on the observation, which statement is true regarding how items are accessed in this warehouse? Choose from: Workers are seen climbing on shelving units, Workers are using ladders or forklifts to access items, Workers are not observed climbing, and appropriate equipment is available.",
+    "direct_answer": "Workers are not observed climbing, and appropriate equipment is available.",
+    "reasoning_answer": "Workers are not seen climbing on shelves or pallets. Ladders, forklifts, and hand trucks are present in the warehouse, indicating that appropriate equipment is available.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 294,
+    "type": "Human Safety",
+    "question": "What kind of safety systems are visible at the aisle intersections? Choose from: Mirrors, Warning lights, None visible.",
+    "direct_answer": "None visible.",
+    "reasoning_answer": "No mirrors or other explicit warning systems are seen at the aisle intersections, which have blind corners due to shelving.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 295,
+    "type": "Human Safety",
+    "question": "What PPE are the workers wearing? Choose from: Hard hats and vests, Safety glasses and gloves, Blue caps and uniforms.",
+    "direct_answer": "Blue caps and uniforms.",
+    "reasoning_answer": "The workers are observed wearing blue caps and uniforms. No other protective gear like hard hats, safety glasses, or gloves is visible.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 296,
+    "type": "Human Safety",
+    "question": "What unexpected objects are located on the floor in some aisles?",
+    "direct_answer": "Small, light-colored pots or vases.",
+    "reasoning_answer": "Small, light-colored pots or vases are visible on the floor near the base of shelving units in some aisles.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 297,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the visible fire extinguishers in terms of obstruction? Choose from: Obstructed, Clear of obstructions, Partially obstructed.",
+    "direct_answer": "Clear of obstructions.",
+    "reasoning_answer": "The visible fire extinguishers are mounted on walls and appear to be free from obstructions, allowing for immediate access.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 298,
+    "type": "Equipment Safety",
+    "question": "What is the method of secondary securement for the tall stacks on upper shelves? Choose from: Shrink-wrap or netting; Straps; Not secured.",
+    "direct_answer": "Not secured.",
+    "reasoning_answer": "The tall stacks of boxes on the upper shelves lack visible secondary securement like shrink-wrap, straps, or netting.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 299,
+    "type": "Equipment Safety",
+    "question": "What item is potentially creating a minor obstruction in an aisle?",
+    "direct_answer": "A red pallet jack.",
+    "reasoning_answer": "A red pallet jack is visible positioned somewhat into an aisle near boxes and a ladder, potentially creating a minor obstruction.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 300,
+    "type": "Equipment Safety",
+    "question": "What is the apparent condition of the shelving units?",
+    "direct_answer": "Good structural condition.",
+    "reasoning_answer": "The shelving units appear to be in good structural condition from the camera's perspective, with no obvious signs of significant damage like bent uprights, damaged beams, or missing safety clips visible in the video.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 301,
+    "type": "Equipment Safety",
+    "question": "Where are the red fire extinguishers located?",
+    "direct_answer": "mounted on the brick wall.",
+    "reasoning_answer": "Two red fire extinguishers are seen mounted on the wall near yellow barriers and stacked boxes.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 302,
+    "type": "Equipment Safety",
+    "question": "What is the visibility of the load capacity labels on the shelving unit beams?",
+    "direct_answer": "Not clearly discernible.",
+    "reasoning_answer": "Specific load capacity labels are not clearly discernible on the shelving unit beams from the video footage.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 303,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the warehouse floor?",
+    "direct_answer": "Dry and clean.",
+    "reasoning_answer": "The warehouse floor appears consistently dry and clean, with no visible evidence of spills.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 304,
+    "type": "Equipment Safety",
+    "question": "Where are the yellow safety barriers located?",
+    "direct_answer": "Near some boxes along a wall.",
+    "reasoning_answer": "The video shows yellow interlocking safety barriers staged near some boxes along a wall.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 305,
+    "type": "Equipment Safety",
+    "question": "Are actively flashing warning lights visible on the forklifts while they are moving?",
+    "direct_answer": "No.",
+    "reasoning_answer": "During their operation shown in the video, the forklifts do not have actively flashing warning lights visible.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 306,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the visible wooden pallets?",
+    "direct_answer": "They appear to be in good condition.",
+    "reasoning_answer": "The wooden pallets visible supporting boxes and crates generally appear to be in good condition without obvious structural damage.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 307,
+    "type": "Object Recognition",
+    "question": "What is the red object mounted on the grey brick wall, typically labeled \"FIRE\"? Choose from: (A) Fire Extinguisher, (B) Fire Hose Cabinet, (C) Fire Alarm Call Point.",
+    "direct_answer": "(C) Fire Alarm Call Point.",
+    "reasoning_answer": "A red, square-shaped device labeled \"FIRE\" is mounted on the wall, consistent with a manual fire alarm call point.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 308,
+    "type": "Object Recognition",
+    "question": "What are the primary items stored in large quantities on the shelves, often marked with labels like \"FRAGILE\" or \"EXPRESS\"?",
+    "direct_answer": "Cardboard boxes.",
+    "reasoning_answer": "The shelves are predominantly filled with numerous cardboard boxes of various sizes, some bearing these indicative labels.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 309,
+    "type": "Object Recognition",
+    "question": "What is the yellow and black piece of motorized lifting equipment parked in an aisle, designed for accessing very high shelves?",
+    "direct_answer": "Reach truck (a type of forklift).",
+    "reasoning_answer": "A yellow and black reach truck is visible, characterized by its tall mast and ability to extend its forks to high shelving. It is parked in one of the aisles between the shelves.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 310,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the floor surface throughout the warehouse?",
+    "direct_answer": "Dark blue or dark grey.",
+    "reasoning_answer": "The warehouse floor consistently presents a dark blue or dark grey color, marked with lighter lines.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 311,
+    "type": "Attribute Recognition",
+    "question": "What are the two main, contrasting colors of the structural components (uprights and beams) of most shelving units?",
+    "direct_answer": "Red and blue.",
+    "reasoning_answer": "The shelving units predominantly feature red horizontal beams and blue vertical uprights.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 312,
+    "type": "Attribute Recognition",
+    "question": "What is the predominant color of the uniforms and caps worn by the warehouse workers?",
+    "direct_answer": "Blue or purle.",
+    "reasoning_answer": "All workers visible in the warehouse are consistently wearing solid blue-purple uniforms and matching blue caps.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 313,
+    "type": "Spatial Understanding",
+    "question": "Are the yellow interlocking safety barriers positioned in the middle of an active thoroughfare or more towards the side of an area?",
+    "direct_answer": "Towards the side, near a wall and adjacent to stacked boxes.",
+    "reasoning_answer": "The yellow barriers are seen placed along a wall next to some boxes, not obstructing a main aisle or active work zone.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 314,
+    "type": "Temporal Understanding",
+    "question": "How many distinct types of forklifts (based on color and design characteristics) are visible in the warehouse environment shown?",
+    "direct_answer": "Two.",
+    "reasoning_answer": "A blue counterbalance forklift and a yellow/black reach truck are the two distinct types of forklifts visible in the warehouse.",
+    "path": "data/large/human/large_05/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 315,
+    "type": "Human Safety",
+    "question": "What are all observed workers wearing on their heads?",
+    "direct_answer": "Blue caps.",
+    "reasoning_answer": "All visible workers are wearing blue caps.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 316,
+    "type": "Human Safety",
+    "question": "Is any worker observed wearing gloves while handling packages?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No worker is visibly wearing gloves during the observed tasks.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 317,
+    "type": "Human Safety",
+    "question": "What is the worker's position in relation to the actively moving forklift? Choose from: In the immediate path of or very close to it, Clearly away from its path, Operating it.",
+    "direct_answer": "In the immediate path of or very close to it.",
+    "reasoning_answer": "At one point in the video, a worker is seen standing in an aisle. An actively moving forklift approaches and passes directly adjacent to the worker.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 318,
+    "type": "Human Safety",
+    "question": "Apart from caps, what other form of Personal Protective Equipment (PPE) like safety glasses or high-visibility vests are the workers visibly wearing?",
+    "direct_answer": "None visible.",
+    "reasoning_answer": "Workers are only seen wearing uniforms and caps; no other PPE is apparent.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 319,
+    "type": "Human Safety",
+    "question": "What is the worker doing at the conveyor belt system?",
+    "direct_answer": "Standing beside it and placing boxes on it.",
+    "reasoning_answer": "A worker is seen standing beside the conveyor belt and placing boxes onto the conveyor system.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 320,
+    "type": "Human Safety",
+    "question": "Where is the worker operating the control panel looking?",
+    "direct_answer": "Looking down at something in their hands.",
+    "reasoning_answer": "The worker operating the overhead crane control panel is observed looking down at something in their hands.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 321,
+    "type": "Equipment Safety",
+    "question": "What is the position of the blue forklift's forks when it is parked?",
+    "direct_answer": "Slightly raised above the ground.",
+    "reasoning_answer": "When the blue forklift is shown parked at multiple points in the video (e.g., 0:11, 1:10, 2:08), its forks are consistently seen slightly raised above the ground, not fully lowered.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 322,
+    "type": "Equipment Safety",
+    "question": "Are the main pathways and aisles generally clear of clutter and obstructions for safe equipment movement?",
+    "direct_answer": "Mostly yes.",
+    "reasoning_answer": "While some equipment is present, major pathways seem relatively clear for movement.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 323,
+    "type": "Equipment Safety",
+    "question": "What type of lighting is used in the warehouse?",
+    "direct_answer": "Numerous overhead fluorescent lights.",
+    "reasoning_answer": "The warehouse is lit by numerous overhead fluorescent lights.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 324,
+    "type": "Equipment Safety",
+    "question": "Where is the blue, wheeled air compressor located?",
+    "direct_answer": "Against a wall.",
+    "reasoning_answer": "The blue, wheeled air compressor is clearly visible in the corner of the warehouse, placed against a wall and out of main traffic paths.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 325,
+    "type": "Equipment Safety",
+    "question": "Are the wooden crates shown stacked directly on the floor, or are they placed on pallets?",
+    "direct_answer": "On pallets.",
+    "reasoning_answer": "The wooden crates are seen stored on wooden pallets.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 326,
+    "type": "Object Recognition",
+    "question": "What is the red-colored safety apparatus, typically containing a hose, mounted on the warehouse wall?",
+    "direct_answer": "Fire hose cabinet.",
+    "reasoning_answer": "A red cabinet, characteristic of a fire hose station, is visible on the wall.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 327,
+    "type": "Attribute Recognition",
+    "question": "What are the two primary colors of the support structures for the shelving units holding cardboard boxes?",
+    "direct_answer": "Blue and red.",
+    "reasoning_answer": "The vertical supports of the shelves are blue, and the horizontal beams are red.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 328,
+    "type": "Attribute Recognition",
+    "question": "What are the primary colors of the automated guided vehicle (AGV) or robotic pallet truck seen in the warehouse? Choose: Yellow and Black, Blue and White, Red and Grey.",
+    "direct_answer": "Yellow and Black.",
+    "reasoning_answer": "A driverless pallet-moving vehicle is yellow with black components.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 329,
+    "type": "Attribute Recognition",
+    "question": "What color are the lines or seams visible on the dark blue warehouse floor?",
+    "direct_answer": "Light gray or white.",
+    "reasoning_answer": "The floor is sectioned by lighter-colored lines, likely seams in the concrete.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 330,
+    "type": "Spatial Understanding",
+    "question": "Is the parked blue forklift located closer to the wall with a grey brick texture or to the central aisles with shelving units?",
+    "direct_answer": "Closer to the wall with grey brick texture.",
+    "reasoning_answer": "The blue forklift is seen parked near an end wall that has a grey brick pattern. From the viewpoint, it is clearly closer to this wall than to the aisles with shelving units.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 331,
+    "type": "Spatial Understanding",
+    "question": "Where is the red fire hose cabinet located relative to the large stacks of cardboard boxes arranged along the wall?",
+    "direct_answer": "To the right of some stacks of boxes.",
+    "reasoning_answer": "The fire hose cabinet is positioned on the wall, adjacent to and to the right of several pallets of boxes.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 332,
+    "type": "Temporal Understanding",
+    "question": "What types of vehicles are seen in the warehouse?",
+    "direct_answer": "A blue forklift and a yellow AGV.",
+    "reasoning_answer": "The video shows a blue forklift and a yellow AGV are present in the warehouse.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 333,
+    "type": "Temporal Understanding",
+    "question": "According to the description, which event happens first: the blue forklift is seen moving or the overhead crane begins moving the large wooden crate?",
+    "direct_answer": "The blue forklift is seen moving.",
+    "reasoning_answer": "The reasoning states, 'The blue forklift is seen moving first, then the camera focuses on the crane beginning its operation with the crate', indicating the forklift movement occurs before the crane movement.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 334,
+    "type": "Spatial Understanding",
+    "question": "How is the large wooden crate being moved through the air?",
+    "direct_answer": "By the overhead crane system.",
+    "reasoning_answer": "The overhead crane's hoist and trolley system is visibly engaged with the crate, lifting and transporting it.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 335,
+    "type": "Temporal Understanding",
+    "question": "What is causing the blue forklift to move through the warehouse?",
+    "direct_answer": "A worker operating the controls.",
+    "reasoning_answer": "A worker is visible in the operator's seat of the blue forklift while it is in motion, indicating they are operating the controls.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 336,
+    "type": "Human Safety",
+    "question": "How are pedestrian and forklift traffic areas arranged in the warehouse? Choose from: They share the same aisle spaces, They have clearly marked, dedicated separate walkways, Pedestrians are restricted from forklift areas.",
+    "direct_answer": "They share the same aisle spaces.",
+    "reasoning_answer": "Based on visual observation, pedestrians and forklifts are utilizing the same aisle spaces within the warehouse, indicating a lack of designated separate walkways.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 337,
+    "type": "Human Safety",
+    "question": "How is the worker bending while handling boxes from a pallet near the blue crane structure? Choose from: Mainly from the back, Mainly from the knees, Both knees and back, Not bending.",
+    "direct_answer": "Mainly from the back.",
+    "reasoning_answer": "A worker is observed bending mainly from the back, not from the knees, while reaching for boxes near the blue crane.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 338,
+    "type": "Human Safety",
+    "question": "How are workers accessing items in the warehouse?",
+    "direct_answer": "Using ladders or accessing them from ground level.",
+    "reasoning_answer": "Workers in the video are observed using ladders or picking up items from the ground floor level of the shelves.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 339,
+    "type": "Equipment Safety",
+    "question": "Is there any visible signage indicating speed limits for forklifts within the warehouse aisles?",
+    "direct_answer": "No.",
+    "reasoning_answer": "No speed limit signs for material handling equipment are visible in the footage.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 340,
+    "type": "Equipment Safety",
+    "question": "What is the capacity of some aisles for forklift traffic?",
+    "direct_answer": "Main aisles are wide enough for two forklifts, the other only for one forklift.",
+    "reasoning_answer": "Some aisles appear to accommodate two forklifts at a time.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 341,
+    "type": "Equipment Safety",
+    "question": "Is there any visible signage on the shelving units indicating their maximum load capacity?",
+    "direct_answer": "No.",
+    "reasoning_answer": "Load capacity labels for the shelving are not apparent in the video.",
+    "path": "data/large/human/large_06/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 342,
+    "type": "Attribute Recognition",
+    "question": "What warning label is prominently displayed on some of the wooden crates stacked along the wall? Choose from: 'HEAVY', 'FRAGILE', 'THIS SIDE UP'.",
+    "direct_answer": "FRAGILE.",
+    "reasoning_answer": "The word 'FRAGILE' is clearly printed in red on several wooden crates.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 343,
+    "type": "Object Recognition",
+    "question": "What piece of safety equipment is housed in a red cabinet mounted on the wall near stacked boxes?",
+    "direct_answer": "Fire hose reel/cabinet.",
+    "reasoning_answer": "A red cabinet, typically used for fire hoses, is visible on the wall.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 344,
+    "type": "Equipment Safety",
+    "question": "Is the A-frame ladder leaning against a tall shelving unit properly secured or attended by a worker?",
+    "direct_answer": "It appears unattended and not visibly secured.",
+    "reasoning_answer": "The ladder is leaning against the shelf with no worker nearby or visible means of securement, which is an unsafe practice.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 345,
+    "type": "Spatial Understanding",
+    "question": "How many A-frame ladders are visible along the left wall section before the camera turns into the aisles?",
+    "direct_answer": "Two.",
+    "reasoning_answer": "Two A-frame ladders are visible standing open along the left wall.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 346,
+    "type": "Human Safety",
+    "question": "Are the workers observed in the warehouse wearing any visible head protection?",
+    "direct_answer": "Yes, they are wearing blue caps.",
+    "reasoning_answer": "The workers are consistently seen wearing blue caps, which offer minimal impact protection but can be part of a uniform or hygiene standard.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 347,
+    "type": "Attribute Recognition",
+    "question": "What is the primary color of the forklifts predominantly seen operating or parked in the warehouse?",
+    "direct_answer": "Blue.",
+    "reasoning_answer": "Most of the forklifts shown throughout the warehouse are blue.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 348,
+    "type": "Human Safety",
+    "question": "Is the worker handling the boxes on the shelf manually or with mechanical lifting aids?",
+    "direct_answer": "Manually.",
+    "reasoning_answer": "The worker is observed lifting and moving the boxes by hand on the shelf; no hoists, ergonomic lifters, or other mechanical aids are being used by this worker.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 349,
+    "type": "Attribute Recognition",
+    "question": "What are the two primary colors of the structural components of the main shelving units (uprights and beams)?",
+    "direct_answer": "Blue and red/orange.",
+    "reasoning_answer": "The vertical posts (uprights) of the shelves are blue, and the horizontal load-bearing beams are red/orange.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 350,
+    "type": "Human Safety",
+    "question": "When the yellow rolling safety stair is stationary in the aisle, are its safety features (like brakes or locks) visibly engaged?",
+    "direct_answer": "It's not possible to determine from the visual information if the safety features are engaged.",
+    "reasoning_answer": "The specific mechanisms for securing the rolling stairs, such as brake levers or locks, are not clearly visible in the footage.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 351,
+    "type": "Equipment Safety",
+    "question": "Are emergency stop buttons clearly visible and accessible on the main body of the conveyor belt system shown?",
+    "direct_answer": "No, emergency stop buttons are not clearly visible on the main conveyor sections from the given camera angles.",
+    "reasoning_answer": "While such buttons are standard safety features, specific E-stops are not distinctly identifiable on the conveyor apparatus in the video.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 352,
+    "type": "Attribute Recognition",
+    "question": "What branding or text is visible on the side of some blue forklifts near the operator's seat?",
+    "direct_answer": "LESTAK LOGISTICS.",
+    "reasoning_answer": "The text 'LESTAK LOGISTICS' is clearly visible on the side of some blue forklifts.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 353,
+    "type": "Spatial Understanding",
+    "question": "How many forklifts are parked in a row near the conveyor system at the end of one aisle?",
+    "direct_answer": "Four.",
+    "reasoning_answer": "Four blue forklifts are visible parked in a row near the conveyor system.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 354,
+    "type": "Object Recognition",
+    "question": "What items are stacked on the top shelf of some racking units, above the levels holding boxed goods?",
+    "direct_answer": "Empty wooden pallets.",
+    "reasoning_answer": "Stacks of empty wooden pallets are visible on the uppermost storage level of some shelving units.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 355,
+    "type": "Attribute Recognition",
+    "question": "What is the color of the floor marking lines that appear to divide the warehouse floor into large sections or bays?",
+    "direct_answer": "White or Light Grey.",
+    "reasoning_answer": "The dark floor is marked with lighter colored (white or light grey) lines creating a grid pattern.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 356,
+    "type": "Equipment Safety",
+    "question": "Do the bases of the shelving unit uprights show evidence of being anchored to the floor for stability?",
+    "direct_answer": "Yes, floor anchoring plates are visible.",
+    "reasoning_answer": "Metal plates with what appear to be bolt heads are visible at the base of the blue shelving uprights, suggesting they are secured to the floor.",
+    "path": "data/large/human/large_07/video_01.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 357,
+    "type": "Human Safety",
+    "question": "Are pedestrian walkways in the warehouse clearly marked and dedicated? Choose from: Yes, they are clearly marked; No, they are not clearly marked; There are no pedestrian walkways.",
+    "direct_answer": "No, they are not clearly marked.",
+    "reasoning_answer": "The warehouse contains aisles used for movement, but there are no distinct, marked pedestrian-only walkways consistently visible separated from other traffic routes.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 358,
+    "type": "Human Safety",
+    "question": "How are workers performing while operating machinery? Choose from: Focused on their task, Using mobile devices, Idle or unfocused.",
+    "direct_answer": "Focused on their task.",
+    "reasoning_answer": "Workers operating machinery are observed concentrating on handling goods and operating equipment, indicating they are focused on their task.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 359,
+    "type": "Equipment Safety",
+    "question": "What is the state of the forks on the parked blue forklifts?",
+    "direct_answer": "Some are raised off the ground.",
+    "reasoning_answer": "Reviewing the video, some of the parked blue forklifts have their forks lowered to the ground, while at least one is visible with its forks raised off the ground.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 360,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the main forklift aisles? Choose from: Clear, Partially obstructed, Significantly obstructed.",
+    "direct_answer": "Clear.",
+    "reasoning_answer": "The air compressors are positioned along a wall, ensuring the main aisles remain unobstructed and clear.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 361,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the loads of boxes on pallets being moved by pallet jacks? Choose from: Stable and secure, Unstable, Partially stacked.",
+    "direct_answer": "Stable and secure.",
+    "reasoning_answer": "Boxes on pallets moved by workers generally appear well-stacked and secure, indicating stability during transport.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 362,
+    "type": "Equipment Safety",
+    "question": "Where is the visible warning or safety instruction label located on the large yellow jib crane? Choose from: On the main column; On the jib arm; Not present.",
+    "direct_answer": "On the jib arm.",
+    "reasoning_answer": "A warning label is affixed to the horizontal beam of the crane (the jib arm).",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 363,
+    "type": "Equipment Safety",
+    "question": "What is the status of electrical cables near walkways? Choose from: Creating trip hazards, Managed and not obstructing, Loose and untidy.",
+    "direct_answer": "Managed and not obstructing.",
+    "reasoning_answer": "The electrical cables for the equipment visible are routed or managed in a way that they do not cross or obstruct the walkways, therefore not creating potential trip hazards.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 364,
+    "type": "Equipment Safety",
+    "question": "What covers the motors or belt drives on the blue portable air compressors?",
+    "direct_answer": "Black metal caging.",
+    "reasoning_answer": "The blue portable air compressors visible in the warehouse have black metal caging covering their motor and belt drives.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 365,
+    "type": "Equipment Safety",
+    "question": "How are the boxes and crates placed on the storage shelves?",
+    "direct_answer": "Within the edges of the shelves.",
+    "reasoning_answer": "The video shows that the boxes and crates on the storage shelves are placed within the edges of the shelves and are not overhanging.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 366,
+    "type": "Equipment Safety",
+    "question": "What is the condition of the floor area beneath the parked forklifts? Choose from: Clean and free of leaks, Dirty with fluid leaks, Dirty without fluid leaks.",
+    "direct_answer": "Clean and free of leaks.",
+    "reasoning_answer": "The floor area under the parked forklifts appears clean and free of fresh leaks, indicating no visible fluid leakage.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 367,
+    "type": "Equipment Safety",
+    "question": "What is observed regarding the guarding of the visible parts of the blue conveyor system?",
+    "direct_answer": "Visible parts appear to have guards in place for moving components.",
+    "reasoning_answer": "The visible sections of the blue conveyor system are shown to have protective guards installed over the drive mechanisms and potential pinch points.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "1",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 368,
+    "type": "Attribute Recognition",
+    "question": "How many blue forklifts are clearly visible parked in a single continuous row along the grey brick wall near the start of the video sequence? Choose from: (A) Two, (B) Three, (C) Four.",
+    "direct_answer": "(C) Four.",
+    "reasoning_answer": "Three blue forklifts are seen parked consecutively along the wall and one forklift lifting items.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 369,
+    "type": "Spatial Understanding",
+    "question": "Is the large blue gantry crane structure primarily positioned over stacks of cardboard boxes or over wooden crates?",
+    "direct_answer": "Wooden crates and cardboard boxes on pallets.",
+    "reasoning_answer": "The blue gantry crane is seen operating above areas with both wooden crates and pallets of cardboard boxes.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 370,
+    "type": "Spatial Understanding",
+    "question": "When moving down a narrow aisle with tall shelves, are wooden crates predominantly stored on the left or right side in some sections?",
+    "direct_answer": "Both left and right sides.",
+    "reasoning_answer": "Narrow aisles feature tall shelves with wooden crates on both sides.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "1"
+  },
+  {
+    "question_id": 371,
+    "type": "Object Recognition",
+    "question": "What type of lifting equipment is large, yellow, supported by a single robust column, and used for lifting wooden crates?",
+    "direct_answer": "Jib crane.",
+    "reasoning_answer": "The described equipment is a yellow jib crane, used for lifting heavy items like wooden crates. This is clearly visible in the video, such as at 00:01.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 372,
+    "type": "Object Recognition",
+    "question": "What is the brand name clearly visible on the side of the yellow portable air compressors?",
+    "direct_answer": "GOODWELL.",
+    "reasoning_answer": "The yellow air compressors are explicitly labeled with the brand name 'GOODWELL'.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  },
+  {
+    "question_id": 373,
+    "type": "Object Recognition",
+    "question": "What is the primary function of the blue, wheeled machines with motors and tanks lined up against the wall?",
+    "direct_answer": "Air compression.",
+    "reasoning_answer": "These machines are identifiable as portable air compressors.",
+    "path": "data/large/human/large_08/large03.mp4",
+    "transformed_status": "0",
+    "reasoning_status": "0"
+  }
+]

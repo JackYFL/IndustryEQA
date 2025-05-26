@@ -1,0 +1,56 @@
+**Role:** Act as an expert safety analyst for industrial warehouse environments.
+
+**Input:** A video recording from a warehouse setting.
+
+**Task:** Analyze the video and generate a comprehensive set of relevant Question-Answer (QA) pairs based *only* on the video content. 
+For each QA pair, generate multiple type-question-answer pairs. For answer, generate direct answer and reasoning answer. Cover all the elements that appear in the video.
+
+**Core Focus & QA Categories:**
+Your primary goal is generating diverse QA pairs. 
+Only cover the following 3 categories, ensuring complex reasoning questions:
+
+1. Safety-Focused Question
+* Human Safety: Evaluating direct risks to human safety, such as potential collisions, falling hazards, ergonomic issues, proper usage of personal protective equipment, and hazardous zones.
+2. General Scene Understanding
+* Spatial Understanding: Questions related to object positions, distances, directions, and spatial relationships.
+* Temporal Understanding: Understanding the sequence and order of events, including counting objects or occurrences over time in videos.
+
+**QA Requirements:**
+1. Generate 10 high-quality, distinct QA pairs. Cover all the elements that appear in the video, the richer the better.
+2. Prioritize questions with factual, objective answers based on visual observation.
+3. Focus on one specific element or condition per question; allow 20% multiple-choice format when suitable.
+4. Ensure questions align with their assigned type.
+5. Vary difficulty from simple to complex, strictly based on the video.
+6. Questions and answers should be concise.
+7. For each question, "direct answer" should be unique rather than multiple ambiguous answers, and "reasoning answer" should not exceed one sentence.
+8. Do not reference specific times or frames.
+9. Ensure clarity and unambiguity in all questions.
+10. Although each type of question have a reasoning_answer, you still need to explicitly generate some difficult Causal Reasoning and Commonsense Reasoning type questions.
+11. Do not generate questions those whose answers can probably be guessed.
+
+
+**Output Format:**
+Provide your answers in strictly valid JSON format.
+
+**Examples:**
+
+```json
+[
+    {
+        "id": 1,
+        "type": "Spatial Understanding",
+        "question": "What colors are the interlocking, stackable items placed on the floor in aisle 02? Choose the answer from the following options: Yellow, Blue, Green.",
+        "direct_answer": "Yellow.",
+        "reasoning_answer": "interlocking, stackable items are placed near workers, which can be seen that they are yellow."
+    },
+    {
+        "id": 2,
+        "type": "Human Safety",
+        "question": "What piece of equipment is used by a worker to move multiple boxes stacked vertically?",
+        "direct_answer": "Hand truck.",
+        "reasoning_answer": "A worker is seen using a hand truck to transport boxes."
+    },
+]
+```
+make your questions as hard as possible.
+Now analyze the video and generate the QA pairs:

@@ -1,0 +1,27 @@
+python ./openeqa/baselines/claude.py             --frames 40     --dataset .\results\results\large_all_new_new.json
+python ./openeqa/baselines/gemini-2.0-flash.py                   --dataset .\results\results\large_all_new_new.json 
+python ./openeqa/baselines/gemini-2.0-flash.py                   --dataset .\results\results\large_all_new_new.json --model gemini-2.5-flash-preview-04-17
+python ./openeqa/baselines/gpt-4o.py             --frames 40     --dataset .\results\results\large_all_new_new.json --model gpt-4o
+python ./openeqa/baselines/gpt-4o.py             --frames 40     --dataset .\results\results\large_all_new_new.json --model o4-mini
+python ./openeqa/baselines/gpt-4o.py             --frames 40     --dataset .\results\results\large_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/internvl3.py                          --dataset .\results\results\large_all_new_new.json 
+python ./openeqa/baselines/llama4.py             --frames 40     --dataset .\results\results\large_all_new_new.json
+python ./openeqa/baselines/qwen.py               --frames 40     --dataset .\results\results\large_all_new_new.json
+
+
+python ./openeqa/baselines/blind-deepseek.py     --dataset .\results\results\large_all_new_new.json  #
+python ./openeqa/baselines/blind-deepseek.py     --dataset .\results\results\large_all_new_new.json --model deepseek/deepseek-r1 #
+python ./openeqa/baselines/blind-gemini.py       --dataset .\results\results\large_all_new_new.json 
+python ./openeqa/baselines/blind-gpt4o.py        --dataset .\results\results\large_all_new_new.json
+
+
+
+python ./openeqa/baselines/gpt-4o.py             --frames 5     --dataset .\results\results\large_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/gpt-4o.py             --frames 10     --dataset .\results\results\large_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/gpt-4o.py             --frames 20     --dataset .\results\results\large_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/gpt-4o.py             --frames 50     --dataset .\results\results\large_all_new_new.json --model gpt-4.1
+
+python ./openeqa/baselines/gpt-4o.py             --frames 5      --dataset .\results\results\small_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/gpt-4o.py             --frames 10     --dataset .\results\results\small_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/gpt-4o.py             --frames 20     --dataset .\results\results\small_all_new_new.json --model gpt-4.1
+python ./openeqa/baselines/gpt-4o.py             --frames 50     --dataset .\results\results\small_all_new_new.json --model gpt-4.1
