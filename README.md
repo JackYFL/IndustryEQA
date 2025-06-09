@@ -8,7 +8,6 @@ The code requires a `python>=3.9` environment. We recommend using conda:
 conda create -n industryeqa python=3.9
 conda activate industryeqa
 pip install -r requirements.txt
-pip install -e .
 ```
 
 ### Running baselines
