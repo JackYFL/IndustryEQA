@@ -1,4 +1,4 @@
-# [NeurIPS 2025 D&B Track] IndustryEQA: Pushing the Frontiers of Emboded Question Answering in Industrial Scenarios
+# [NeurIPS 2025 D&B Track] IndustryEQA: Pushing the Frontiers of Embodied Question Answering in Industrial Scenarios
 
 
 
@@ -147,8 +147,6 @@ If you found the IndustryEQA benchmark or code useful in your research, please c
 }
 ```
 
-
-
 ## 🙏 Acknowledgements
 
-This codebase is built based on OpenEQA repository, we sincerely thank OpenEQA for xxxxxxxx.
+This project's codebase is adapted from the [OpenEQA](https://github.com/facebookresearch/open-eqa). We sincerely thank the OpenEQA authors for making their code publicly available.
