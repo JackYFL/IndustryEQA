@@ -12,7 +12,7 @@ from openeqa.utils.prompt_utils import load_prompt
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ground-truth", type=Path, default="./results/results/small_all_new_new.json")
+    parser.add_argument("--ground-truth", type=Path, default="./annotation/industryeqa.json")
     parser.add_argument("--generated-answers", type=Path, default="./data/results/small_all_new-gemini-2.0-flash-2.json")
     parser.add_argument("--model", type=str, default="gemini-2.0-flash")
     parser.add_argument("--output-directory", type=Path, default="data/scores")

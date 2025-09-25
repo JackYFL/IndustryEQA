@@ -12,7 +12,7 @@ import time
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", type=Path, default="./results/results/small_all_new_new.json", help="path to EQA dataset")
+    parser.add_argument("--dataset", type=Path, default="./annotation/industryeqa.json", help="path to EQA dataset")
     parser.add_argument("--model", type=str, default="gemini-2.0-flash", help=" model")
     parser.add_argument("--output-directory", type=Path, default="./data/results", help="output directory (default: data/results)")
     parser.add_argument("--force", action="store_true", help="continue running on API errors (default: false)")

@@ -1,15 +1,54 @@
-# [NeurIPS 2025 D&B Track] IndustryEQA: Pushing the Frontiers of Embodied Question Answering in Industrial Scenarios
+<div align="center">
+<h1 align="center">IndustryEQA</h1>
 
+<h3>Pushing the Frontiers of Embodied Question Answering in Industrial Scenarios
+</h3>
 
+<p>
+Yifan Li<sup>1*</sup>,
+Yuhang Chen<sup>2*</sup>,
+Anh Dao<sup>1*</sup>,
+Lichi Li<sup>3</sup>,
+Zhongyi Cai<sup>1</sup>,
+Zhen Tan<sup>4</sup>,
+Tianlong Chen<sup>2</sup>,
+Yu Kong<sup>1</sup>
+</p>
 
-## 📣 Announcement
+<p>
+<sup>1</sup>Michigan State University, <sup>2</sup>University of North Carolina at Chapel Hill, <sup>3</sup>Independent Researcher, <sup>4</sup>Arizona State University
+</p>
+<p>
+<sup>*</sup>Equal contribution
+</p>
 
-We are thrilled to announce that our paper, "IndustryEQA: Pushing the Frontiers of Embodied Question Answering in Industrial Scenarios," has been accepted to **NeurIPS 2025 Dataset & Benchmark Track**!
+<p>
+    <a href="https://johnx69.github.io/IndustryEQA/">
+        <img src="https://img.shields.io/badge/Project-Website-blue?style=flat-square" alt="Project Page">
+    </a>
+    <a href="https://arxiv.org/abs/2505.20640">
+        <img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square" alt="Paper">
+    </a>
+    <a href="https://huggingface.co/datasets/IndustryEQA/IndustryEQA">
+        <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow?style=flat-square" alt="Video Dataset">
+    </a>
+    <a href="https://johnx69.github.io/IndustryEQA/#leaderboard">
+        <img src="https://img.shields.io/badge/View-Leaderboard-green?style=flat-square" alt="Leaderboard">
+    </a>
+</p>
 
-- [Project Website](https://johnx69.github.io/IndustryEQA/)
-- [ArXiv](https://arxiv.org/abs/2505.20640)
-- [Video Dataset](https://huggingface.co/datasets/IndustryEQA/IndustryEQA)
+Accepted to **NeurIPS 2025 Datasets and Benchmarks Track**
 
+</div>
+
+### Table of Contents
+1. [📖 Abstract](#-abstract)
+2. [🏗️ The IndustryEQA Benchmark](#️-the-industryeqa-benchmark)
+3. [🚀 Getting Started](#-getting-started)
+4. [📊 Dataset](#-dataset)
+5. [⚙️ Usage](#️-usage)
+6. [📜 Citation](#-citation)
+7. [🙏 Acknowledgements](#-acknowledgements)
 
 
 ## 📖 Abstract
