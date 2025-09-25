@@ -36,12 +36,10 @@ def parse_args() -> argparse.Namespace:
 
 def parse_json_from_response(text: str):
     """Extract JSON from the model response."""
-    # Look for JSON content between triple backticks and json
     json_match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
     if json_match:
         json_str = json_match.group(1)
     else:
-        # If not found with ```json format, try just finding JSON object
         json_match = re.search(r'\{[^{]*"direct_answer":[^{]*"reasoning_answer":[^}]*\}', text, re.DOTALL)
         if json_match:
             json_str = json_match.group(0)
@@ -52,47 +50,6 @@ def parse_json_from_response(text: str):
         return json.loads(json_str)
     except json.JSONDecodeError:
         return {}
-
-
-# def extract_and_encode_frames(video_path, num_frames_to_extract=5):
-#     """Extract frames from video and encode them to base64."""
-#     base64_frames = []
-#     video_path_str = str(video_path)
-    
-#     video = cv2.VideoCapture(video_path_str)
-#     if not video.isOpened():
-#         print(f"Could not open video: {video_path}")
-#         return base64_frames
-    
-#     total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
-#     if total_frames == 0:
-#         video.release()
-#         print(f"Video has 0 frames: {video_path}")
-#         return base64_frames
-    
-#     num_frames_to_extract = min(num_frames_to_extract, total_frames)
-    
-#     if num_frames_to_extract == 1:
-#         frame_indices = [total_frames // 2]
-#     elif num_frames_to_extract > 1:
-#         step = max(1, total_frames // num_frames_to_extract)
-#         frame_indices = [min(i * step, total_frames - 1) for i in range(num_frames_to_extract)]
-#         frame_indices = sorted(list(set(frame_indices)))
-#     else:
-#         video.release()
-#         return base64_frames
-    
-#     for frame_idx in frame_indices:
-#         video.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
-#         success, frame = video.read()
-#         if not success:
-#             continue
-        
-#         _, buffer = cv2.imencode(".jpg", frame)
-#         base64_frames.append(base64.b64encode(buffer).decode("utf-8"))
-    
-#     video.release()
-#     return base64_frames
 
 
 def extract_and_encode_frames(video_path, num_frames_to_extract=5):
@@ -116,11 +73,9 @@ def extract_and_encode_frames(video_path, num_frames_to_extract=5):
     
     num_frames_to_extract = min(num_frames_to_extract, total_frames)
     
-    # 改进帧索引计算，确保更均匀地分布在整个视频中
     if num_frames_to_extract == 1:
         frame_indices = [total_frames // 2]
     elif num_frames_to_extract > 1:
-        # 更均匀地在视频中分布选择的帧
         frame_indices = [int(i * (total_frames - 1) / (num_frames_to_extract - 1)) 
                          for i in range(num_frames_to_extract)]
     else:
@@ -166,27 +121,21 @@ def get_video_frames(
     if not use_cache or cache_dir is None:
         return extract_and_encode_frames(video_path, num_frames)
     
-    # Create a unique filename for the cached frames
-    # video_path = 
+
     temp_path_segment = video_path.replace("/", "_")
     cache_key = f"{temp_path_segment}_{num_frames}frames.json"
     cache_file = cache_dir / cache_key
     
-    # If cache exists, load frames from cache
     if cache_file.exists():
-        # try:
         with open(cache_file, 'r') as f:
             print(f"Using cached frames for {video_path}")
             cached_frames = json.load(f)
             if cached_frames and len(cached_frames) > 0:
                 return cached_frames
-        # except Exception:
-        #     print(f"Error with cache, re-extracting frames...")
+
     
-    # Extract frames and cache them
     base64_frames = extract_and_encode_frames(video_path, num_frames)
     
-    # Save to cache if frames were successfully extracted
     if base64_frames and len(base64_frames) > 0 and cache_dir is not None:
         try:
             with open(cache_file, 'w') as f:
@@ -209,13 +158,11 @@ def ask_question_openrouter_video(
     cache_dir: Optional[Path] = None
 ):
     """Ask a question about a video using OpenRouter's API."""
-    # Get frames (from cache if available)
     base64_frames = get_video_frames(video_path, num_frames, use_cache, cache_dir)
     
     if not base64_frames or len(base64_frames) == 0:
         print(f"Warning: Could not extract frames from {video_path}")
     
-    # Prepare prompt
     try:
         prompt = load_prompt("evaluate")
         full_prompt = prompt.format(question=question)
@@ -223,7 +170,6 @@ def ask_question_openrouter_video(
         print(f"Error loading prompt: {e}")
         return {}
     
-    # Prepare message content
     messages_content = [{"type": "text", "text": full_prompt}]
     for base64_frame in base64_frames:
         messages_content.append({
@@ -234,7 +180,6 @@ def ask_question_openrouter_video(
             }
         })
     
-    # Make the API call
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -246,19 +191,16 @@ def ask_question_openrouter_video(
         max_tokens=1000
     )
     print(response)
-    # Process the response directly
     if response and hasattr(response, 'choices') and response.choices:
         message = response.choices[0].message
         if message and hasattr(message, 'content') and message.content:
             return parse_json_from_response(message.content)
             
-    # If we get here, there was an issue with the response
     print(f"API response for question ID {question} did not contain expected data")
     return {}
 
 
 def main(args: argparse.Namespace):
-    # Load dataset
     try:
         with open(args.dataset, "r", encoding="utf-8") as f:
             dataset = json.load(f)
@@ -267,7 +209,6 @@ def main(args: argparse.Namespace):
         print(f"Error loading dataset: {e}")
         return
 
-    # Load existing results
     results = []
     if args.output_path.exists():
         try:
@@ -277,23 +218,19 @@ def main(args: argparse.Namespace):
         except Exception as e:
             print(f"Error loading existing results: {e}, starting with empty results")
     
-    # Track completed questions
     completed = {item["question_id"] for item in results}
 
-    # Initialize OpenRouter client
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
         api_key=""
     )
     
-    # Process data
     try:
         for idx, item in enumerate(tqdm.tqdm(dataset)):
             if args.dry_run and idx >= 3:
                 print("Dry run completed")
                 break
 
-            # Skip completed questions
             question_id = item["question_id"]
             if question_id in completed:
                 continue
@@ -322,7 +259,6 @@ def main(args: argparse.Namespace):
                     cache_dir=args.cache_dir
                 )
                 
-                # Only add successful results to the output
                 if answer_json:
                     results.append({
                         "question_id": question_id,
@@ -331,25 +267,21 @@ def main(args: argparse.Namespace):
                         "generated_reasoning_answer": answer_json.get("reasoning_answer", "")
                     })
                     
-                    # Save results after each successful question
                     with open(args.output_path, "w", encoding="utf-8") as f:
                         json.dump(results, f, indent=2)
                 else:
                     print(f"Skipping result for question {question_id} due to API error")
                 
             except Exception as e:
-                # Let the original exception propagate
                 print(f"Error processing question {question_id}: {e}")
                 if not args.force:
                     raise
             
-            # Add a small delay to avoid rate limiting
             time.sleep(8)
 
     except KeyboardInterrupt:
         print("Process interrupted by user")
     finally:
-        # Final save
         if results:
             with open(args.output_path, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2)

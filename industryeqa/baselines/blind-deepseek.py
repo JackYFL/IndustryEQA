@@ -25,8 +25,6 @@ def parse_args() -> argparse.Namespace:
     return args
 
 def parse_json_from_response(text: str):
-    """Extract JSON from the model response."""
-    # Look for JSON content between triple backticks and json
     json_match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
     if json_match:
         json_str = json_match.group(1)
@@ -50,14 +48,10 @@ def ask_question_openai(
     client,
     model: str = "gpt-4o",
 ) -> Optional[dict]:
-    """Ask a question about a video using OpenAI's API."""
     
-
-    # Prepare prompt
     prompt = load_prompt("blind-llm")
     full_prompt = prompt.format(question=question)
     
-    # Prepare message content
     messages_content = [{"type": "text", "text": full_prompt}]
     
     try:
@@ -73,7 +67,6 @@ def ask_question_openai(
         )
         response_text = response.choices[0].message.content
         
-        # Parse the JSON response
         result = parse_json_from_response(response_text)
         return result
     except Exception as e:
@@ -83,11 +76,9 @@ def ask_question_openai(
         }
 
 def main(args: argparse.Namespace):
-    # Load dataset
     dataset = json.load(args.dataset.open("r", encoding="utf-8"))
     print("Found {:,} questions".format(len(dataset)))
 
-    # Load existing results
     results = []
     if args.output_path.exists():
         results = json.load(args.output_path.open())
@@ -99,12 +90,10 @@ def main(args: argparse.Namespace):
         api_key=""
     )
     
-    # Process data
     for idx, item in enumerate(tqdm.tqdm(dataset)):
         if args.dry_run and idx >= 5:
             break
 
-        # Skip completed questions
         question_id = item["question_id"]
         if question_id in completed:
             continue  # Skip existing
@@ -125,10 +114,8 @@ def main(args: argparse.Namespace):
             "generated_reasoning_answer": answer_json.get("reasoning_answer", "")
         })
 
-        # Save results after each question
         json.dump(results, args.output_path.open("w"), indent=2)
         
-        # Add a small delay to avoid rate limiting
         time.sleep(1)
 
     # Final save

@@ -23,13 +23,11 @@ def parse_args() -> argparse.Namespace:
     return args
 
 def parse_json_from_response(text: str):
-    """Extract JSON from the model response."""
-    # Look for JSON content between triple backticks and json
+
     json_match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
     if json_match:
         json_str = json_match.group(1)
     else:
-        # If not found with ```json format, try just finding JSON object
         json_match = re.search(r'\{[^{]*"direct_answer":[^{]*"reasoning_answer":[^}]*\}', text, re.DOTALL)
         if json_match:
             json_str = json_match.group(0)
@@ -89,7 +87,6 @@ def main(args: argparse.Namespace):
     dataset = json.load(args.dataset.open("r", encoding="utf-8"))
     print("found {:,} questions".format(len(dataset)))
 
-    # load results
     results = []
     if args.output_path.exists():
         results = json.load(args.output_path.open())
@@ -99,12 +96,10 @@ def main(args: argparse.Namespace):
     added_path = []
     video_file_dict = {}
     client = genai.Client(api_key=api_key[0])
-    # process data
     for idx, item in enumerate(tqdm.tqdm(dataset)):
         if args.dry_run and idx >= 100:
             break
 
-        # skip completed questions
         question_id = item["question_id"]
         if question_id in completed:
             continue  # skip existing
@@ -120,7 +115,6 @@ def main(args: argparse.Namespace):
             video_file = client.files.upload(file=file_path)
             print(f"Completed upload: {video_file.uri}")
 
-            # Check whether the file is ready to be used.
             while video_file.state.name == "PROCESSING":
                 print('.', end='')
                 time.sleep(1)

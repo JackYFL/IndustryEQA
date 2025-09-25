@@ -26,13 +26,10 @@ def parse_args() -> argparse.Namespace:
     return args
 
 def parse_json_from_response(text: str):
-    """Extract JSON from the model response."""
-    # Look for JSON content between triple backticks and json
     json_match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
     if json_match:
         json_str = json_match.group(1)
     else:
-        # If not found with ```json format, try just finding JSON object
         json_match = re.search(r'\{[^{]*"direct_answer":[^{]*"reasoning_answer":[^}]*\}', text, re.DOTALL)
         if json_match:
             json_str = json_match.group(0)
@@ -46,7 +43,6 @@ def parse_json_from_response(text: str):
 
 
 def extract_and_encode_frames(video_path, num_frames_to_extract=5):
-    """Extract frames from video and encode them to base64."""
     base64_frames = []
     video_path_str = str(video_path)  # Convert Path to string if needed
     
@@ -66,11 +62,9 @@ def extract_and_encode_frames(video_path, num_frames_to_extract=5):
     
     num_frames_to_extract = min(num_frames_to_extract, total_frames)
     
-    # 改进帧索引计算，确保更均匀地分布在整个视频中
     if num_frames_to_extract == 1:
         frame_indices = [total_frames // 2]
     elif num_frames_to_extract > 1:
-        # 更均匀地在视频中分布选择的帧
         frame_indices = [int(i * (total_frames - 1) / (num_frames_to_extract - 1)) 
                          for i in range(num_frames_to_extract)]
     else:
@@ -84,11 +78,9 @@ def extract_and_encode_frames(video_path, num_frames_to_extract=5):
         if not success:
             continue
         
-        # Check if frame is valid
         if frame is None or frame.size == 0:
             continue
             
-        # Resize very large frames to reduce size
         h, w = frame.shape[:2]
         max_dim = 768
         if max(h, w) > max_dim:
@@ -96,7 +88,6 @@ def extract_and_encode_frames(video_path, num_frames_to_extract=5):
             new_h, new_w = int(h * scale), int(w * scale)
             frame = cv2.resize(frame, (new_w, new_h))
         
-        # Convert to JPEG with quality setting
         encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 85]
         _, buffer = cv2.imencode(".jpg", frame, encode_param)
         base64_frames.append(base64.b64encode(buffer).decode("utf-8"))
@@ -117,27 +108,20 @@ def get_video_frames(
     if not use_cache or cache_dir is None:
         return extract_and_encode_frames(video_path, num_frames)
     
-    # Create a unique filename for the cached frames
-    # video_path = 
+
     temp_path_segment = video_path.replace("/", "_")
     cache_key = f"{temp_path_segment}_{num_frames}frames.json"
     cache_file = cache_dir / cache_key
     
-    # If cache exists, load frames from cache
     if cache_file.exists():
-        # try:
         with open(cache_file, 'r') as f:
             print(f"Using cached frames for {video_path}")
             cached_frames = json.load(f)
             if cached_frames and len(cached_frames) > 0:
                 return cached_frames
-        # except Exception:
-        #     print(f"Error with cache, re-extracting frames...")
     
-    # Extract frames and cache them
     base64_frames = extract_and_encode_frames(video_path, num_frames)
     
-    # Save to cache if frames were successfully extracted
     if base64_frames and len(base64_frames) > 0 and cache_dir is not None:
         try:
             with open(cache_file, 'w') as f:
@@ -209,26 +193,21 @@ def ask_question_openai_video(
         }
 
 def main(args: argparse.Namespace):
-    # Load dataset
     dataset = json.load(args.dataset.open("r", encoding="utf-8"))
     print("Found {:,} questions".format(len(dataset)))
 
-    # Load existing results
     results = []
     if args.output_path.exists():
         results = json.load(args.output_path.open())
         print("Found {:,} existing results".format(len(results)))
     completed = [item["question_id"] for item in results]
 
-    # Initialize OpenAI client
     client = OpenAI(api_key="")
     
-    # Process data
     for idx, item in enumerate(tqdm.tqdm(dataset)):
         if args.dry_run and idx >= 5:
             break
 
-        # Skip completed questions
         question_id = item["question_id"]
         if question_id in completed:
             continue  # Skip existing
@@ -251,13 +230,10 @@ def main(args: argparse.Namespace):
             "generated_reasoning_answer": answer_json.get("reasoning_answer", "")
         })
 
-        # Save results after each question
         json.dump(results, args.output_path.open("w"), indent=2)
         
-        # Add a small delay to avoid rate limiting
         time.sleep(1)
 
-    # Final save
     json.dump(results, args.output_path.open("w"), indent=2)
     print("Saved {:,} answers".format(len(results)))
 

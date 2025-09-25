@@ -37,12 +37,10 @@ def parse_json_from_response(text: str, debug=False):
     if debug:
         print(f"Raw response: {text[:200]}...")  # Print first 200 chars for debug
     
-    # Look for JSON content between triple backticks and json
     json_match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
     if json_match:
         json_str = json_match.group(1)
     else:
-        # If not found with ```json format, try just finding JSON object
         json_match = re.search(r'\{[^{]*"direct_answer":[^{]*"reasoning_answer":[^}]*\}', text, re.DOTALL)
         if json_match:
             json_str = json_match.group(0)
@@ -108,13 +106,11 @@ def extract_and_encode_frames(video_path, num_frames_to_extract=5, debug=False):
                     print(f"Failed to read frame at index {frame_idx}")
                 continue
             
-            # Check if frame is valid
             if frame is None or frame.size == 0:
                 if debug:
                     print(f"Empty frame at index {frame_idx}")
                 continue
                 
-            # Resize very large frames to reduce size
             h, w = frame.shape[:2]
             max_dim = 768
             if max(h, w) > max_dim:
@@ -124,7 +120,6 @@ def extract_and_encode_frames(video_path, num_frames_to_extract=5, debug=False):
                 if debug:
                     print(f"Resized frame from {w}x{h} to {new_w}x{new_h}")
             
-            # Convert to JPEG with quality setting
             encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 85]
             _, buffer = cv2.imencode(".jpg", frame, encode_param)
             base64_frames.append(base64.b64encode(buffer).decode("utf-8"))
@@ -262,13 +257,11 @@ def ask_question_openrouter_video(
             }
         })
     
-    # Calculate approximate token count for base64 images
     approx_token_count = sum(len(frame) // 4 for frame in frames_to_send)
     if debug:
         print(f"Sending request with ~{approx_token_count} tokens of image data")
     
     try:
-        # Make the API call with retry mechanism
         max_retries = 3
         retry_delay = 5  # seconds
         
